@@ -1,0 +1,39 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from '../../layouts/Layout.astro';
+
+export const getStaticPaths = (() => {
+	return [
+		{ params: {series: "wec"}},
+		{ params: {series: "imsa"}}
+	];
+}) satisfies GetStaticPaths;
+
+const { series } = Astro.params;
+
+---
+
+
+<Layout>
+
+	<div class="main">
+		<h1 class="title">{series === "wec" ? "World Endurance Championship" : "IMSA"}</h1>
+	
+	
+	
+	
+	
+	
+	</div>
+
+</Layout>
+
+
+<style>
+
+	.title {
+		font-weight: bold;
+		text-align: center;
+	}
+
+</style>

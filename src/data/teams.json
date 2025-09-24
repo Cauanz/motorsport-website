@@ -264,7 +264,7 @@
         "image": "/public/2_b99d9c.png",
         "logo": "/public/corvette_ffddd1.png",
         "country": {
-          "name": "Great Britain",
+          "name": "United Kingdom",
           "abr": "GBR"
         },
         "carNumbers": ["33"],
@@ -282,6 +282,144 @@
         },
         "carNumbers": ["81"],
         "drivers": ["Tom VAN ROMPUY", "Rui ANDRADE", "Charlie EASTWOOD"]
+      },
+      {
+        "name": "Ferrari 296 LMGT3",
+        "manufacturer": "Ferrari",
+        "team": "Vista AF Corse",
+        "image": "/public/2_d9c8d4.png",
+        "logo": "/public/ferrari_bf0975.png",
+        "country": {
+          "name": "Italy",
+          "abr": "ITA"
+        },
+        "carNumbers": ["21"],
+        "drivers": ["François HÉRIAU", "Simon MANN", "Alessio ROVERA"]
+      },
+      {
+        "name": "Ferrari 296 LMGT3",
+        "manufacturer": "Ferrari",
+        "team": "Vista AF Corse",
+        "image": "/public/2_99d9dd.png",
+        "logo": "/public/ferrari_bf0975.png",
+        "country": {
+          "name": "Italy",
+          "abr": "ITA"
+        },
+        "carNumbers": ["54"],
+        "drivers": ["Thomas FLOHR", "Francesco CASTELLACCI", "Davide RIGON"]
+      },
+      {
+        "name": "Ford Mustang LMGT3",
+        "manufacturer": "Ford",
+        "team": "Proton Competition",
+        "image": "/public/2_67b99d.png",
+        "logo": "/public/ford_e3a755.png",
+        "country": {
+          "name": "Germany",
+          "abr": "GER"
+        },
+        "carNumbers": ["77"],
+        "drivers": ["Bernardo SOUSA", "Ben TUCK", "Benjamin BARKER"]
+      },
+      {
+        "name": "Ford Mustang LMGT3",
+        "manufacturer": "Ford",
+        "team": "Proton Competition",
+        "image": "/public/2_7b99d9.png",
+        "logo": "/public/ford_e3a755.png",
+        "country": {
+          "name": "Germany",
+          "abr": "GER"
+        },
+        "carNumbers": ["88"],
+        "drivers": ["Stefano GATTUSO", "Giammarco LEVORATO", "Dennis OLSEN"]
+      },
+      {
+        "name": "Lexus RC F LMGT3",
+        "manufacturer": "Lexus",
+        "team": "Akkodis ASP Team",
+        "image": "/public/2_9d9eb6.png",
+        "logo": "/public/lexus_7ffde5.png",
+        "country": {
+          "name": "France",
+          "abr": "FRA"
+        },
+        "carNumbers": ["78"],
+        "drivers": [
+          "Arnold ROBIN",
+          "Finn GEHRSITZ",
+          "Ben BARNICOAT",
+          "Jack HAWKSWORTH",
+          "Esteban MASSON",
+          "Yuichi NAKAYAMA"
+        ]
+      },
+      {
+        "name": "Lexus RC F LMGT3",
+        "manufacturer": "Lexus",
+        "team": "Akkodis ASP Team",
+        "image": "/public/2_8667b9.png",
+        "logo": "/public/lexus_7ffde5.png",
+        "country": {
+          "name": "France",
+          "abr": "FRA"
+        },
+        "carNumbers": ["87"],
+        "drivers": [
+          "Petru UMBRARESCU",
+          "Clemens SCHMID",
+          "Jose Maria LOPEZ",
+          "Jack HAWKSWORTH"
+        ]
+      },
+      {
+        "name": "McLaren 720S LMGT3 EVO",
+        "manufacturer": "Mclaren",
+        "team": "United Autosports",
+        "image": "/public/2_df02e2.png",
+        "logo": "/public/mclaren_bd5d12.png",
+        "country": {
+          "name": "United Kingdom",
+          "abr": "GBR"
+        },
+        "carNumbers": ["59"],
+        "drivers": ["James COTTINGHAM", "Sébastien BAUD", "Grégoire SAUCY"]
+      },
+      {
+        "name": "McLaren 720S LMGT3 EVO",
+        "manufacturer": "Mclaren",
+        "team": "United Autosports",
+        "image": "/public/2_67767b.png",
+        "logo": "/public/mclaren_bd5d12.png",
+        "country": {
+          "name": "United Kingdom",
+          "abr": "GBR"
+        },
+        "carNumbers": ["95"],
+        "drivers": ["Darren LEUNG", "Sean GELAEL", "Marino SATO"]
+      },
+      {
+        "name": "Mercedes-AMG LMGT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "Iron Lynx",
+        "image": "/public/2_9d9e36.png",
+        "logo": "/public/mercedes_6823cf.png",
+        "country": {
+          "name": "Italy",
+          "abr": "ITA"
+        },
+        "carNumbers": ["60"],
+        "drivers": [
+          "Claudio SCHIAVONI",
+          "Matteo CRESSONI",
+          "Matteo CAIROLI",
+          "Andrew GILBERT",
+          "Lorcan HANAFIN",
+          "Fran RUEDA",
+          "Stephen GROVE",
+          "Brenton GROVE"
+        ]
       }
     ]
   },

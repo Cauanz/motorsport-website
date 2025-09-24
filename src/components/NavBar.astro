@@ -1,22 +1,43 @@
 
 <nav>
   <ul>
-    <li><a href="/">WEC</a></li>
-    <li><a href="/">IMSA</a></li>
+    <li id="wecbox"><a href="/wec">WEC</a></li>
+    <li id="imsabox"><a href="/imsa">IMSA</a></li>
   </ul>
 </nav>
 
 <style>
-  * {
-    padding: 0;
-    margin: 0;
+  nav {
+    height: 100%;
+    display: flex;
   }
   
   ul {
+    display: flex;
     list-style-type: none;
+    height: 100%;
   }
 
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
 
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  #wecbox {
+    background-color: #0085b8;
+  }
+
+  #imsabox {
+    background-color: #861419;
+  }
 
 
 </style>
