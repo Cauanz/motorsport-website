@@ -1,6 +1,8 @@
 ---
 import type { GetStaticPaths } from "astro";
 import Layout from '../../layouts/Layout.astro';
+import teams from "../../data/teams.json";
+import CardTeam from "../../components/CardTeam.astro";
 
 export const getStaticPaths = (() => {
 	return [
@@ -9,7 +11,8 @@ export const getStaticPaths = (() => {
 	];
 }) satisfies GetStaticPaths;
 
-const { series } = Astro.params;
+const { series } = Astro.params as { series: "wec" | "imsa" };
+const seriesTeam = series === "wec" ? teams.wec : teams.imsa;
 
 ---
 
@@ -19,8 +22,12 @@ const { series } = Astro.params;
 	<div class="main">
 		<h1 class="title">{series === "wec" ? "World Endurance Championship" : "IMSA"}</h1>
 	
-	
-	
+		
+	<main>
+		{teams.wec.lmgt3.map(team => (
+			<CardTeam team={team} />
+		)) }
+	</main>
 	
 	
 	

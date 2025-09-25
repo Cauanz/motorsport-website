@@ -420,9 +420,59 @@
           "Stephen GROVE",
           "Brenton GROVE"
         ]
+      },
+      {
+        "name": "Mercedes-AMG LMGT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "Iron Lynx",
+        "image": "/public/2_267b99.png",
+        "logo": "/public/mercedes_6823cf.png",
+        "country": {
+          "name": "Italy",
+          "abr": "ITA"
+        },
+        "carNumbers": ["61"],
+        "drivers": [
+          "Christian RIED",
+          "Maxime MARTIN",
+          "Lin HODENIUS",
+          "Martin BERRY"
+        ]
+      },
+      {
+        "name": "Porsche 911 GT3 R LMGT3",
+        "manufacturer": "Porsche",
+        "team": "Iron Dames",
+        "image": "/public/2_f3bfc7.png",
+        "logo": "/public/porsche_67ffdf.png",
+        "country": {
+          "name": "Italy",
+          "abr": "ITA"
+        },
+        "carNumbers": ["85"],
+        "drivers": [
+          "Célia MARTIN",
+          "Rahel FREY",
+          "Michelle GATTING",
+          "Sarah BOVY"
+        ]
+      },
+      {
+        "name": "Porsche 911 GT3 R LMGT3",
+        "manufacturer": "Porsche",
+        "team": "Manthey 1ST PHORM",
+        "image": "/public/2_567b99.png",
+        "logo": "/public/porsche_67ffdf.png",
+        "country": {
+          "name": "Germany",
+          "abr": "GER"
+        },
+        "carNumbers": ["92"],
+        "drivers": ["Ryan HARDWICK", "Riccardo PERA", "Richard LIETZ"]
       }
     ]
   },
 
   "imsa": {}
 }
+
