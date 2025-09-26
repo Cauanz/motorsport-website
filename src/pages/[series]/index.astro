@@ -1,4 +1,5 @@
 ---
+export const prerender = false
 import type { GetStaticPaths } from "astro";
 import Layout from '../../layouts/Layout.astro';
 import teams from "../../data/teams.json";
@@ -12,19 +13,30 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { series } = Astro.params as { series: "wec" | "imsa" };
-const seriesTeam = series === "wec" ? teams.wec : teams.imsa;
+
+const categories = Object.keys(teams[series]) as Array<keyof typeof teams[typeof series]>;
+const curCategory = (Astro.url.searchParams.get("cat") as keyof typeof teams[typeof series]) ?? categories[0];
+
+const selected = teams[series]?.[curCategory];
 
 ---
 
 
 <Layout>
 
+	<!-- TODO MELHORAR ESSE MENU -->
+	<nav>
+		{categories.map(category => (
+			<a href={`/${series}?cat=${category}`} class={category === curCategory ? "active" : ""}>{category}</a>
+		))}
+	</nav>
+
 	<div class="main">
 		<h1 class="title">{series === "wec" ? "World Endurance Championship" : "IMSA"}</h1>
-	
-		
+
+
 	<main>
-		{teams.wec.lmgt3.map(team => (
+		{selected.map(team => (
 			<CardTeam team={team} />
 		)) }
 	</main>
