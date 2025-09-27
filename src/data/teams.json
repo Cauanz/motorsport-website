@@ -474,10 +474,157 @@
   },
 
   "imsa": {
-    "GTP": [],
+    "GTP": [
+      {
+        "name": "Acura Motorsports ARX-06",
+        "manufacturer": "Acura",
+        "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["60"],
+        "drivers": [
+          "Colin BRAUN",
+          "Tom BLOMQVIST",
+          "Scott Dixon",
+          "Felix ROSENQVIST"
+        ]
+      },
+      {
+        "name": "Acura Motorsports ARX-06",
+        "manufacturer": "Acura",
+        "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["93"],
+        "drivers": [
+          "Renger VAN DER ZANDE",
+          "Alex PALOU",
+          "Nick YELLOLY",
+          "Kaku OHTA"
+        ]
+      },
+      {
+        "name": "Aston Martin Valkyrie",
+        "manufacturer": "Aston Martin",
+        "team": "Aston Martin THOR Team",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["23"],
+        "drivers": ["Alex RIBERAS", "Roman DE ANGELIS", "Ross GUNN"]
+      },
+      {
+        "name": "Lamborghini SC63",
+        "manufacturer": "Lamborghini",
+        "team": "Automobili Lamborghini Squadra Corse",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["63"],
+        "drivers": [
+          "Mirko BORTOLOTTI",
+          "Roman GROSJEAN",
+          "Daniil KVYAT",
+          "Edoardo MORTARA"
+        ]
+      },
+      {
+        "name": "BMW M HYBRID V8",
+        "manufacturer": "BMW",
+        "team": "BMW M Team RLL",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["24"],
+        "drivers": [
+          "Philip ENG",
+          "Dries VANTHOOR",
+          "Kevin MAGNUSSEN",
+          "Raffaele MARCIELLO"
+        ]
+      },
+      {
+        "name": "BMW M HYBRID V8",
+        "manufacturer": "BMW",
+        "team": "BMW M Team RLL",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["25"],
+        "drivers": [
+          "Rene RAST",
+          "Marco WITTMANN",
+          "Sheldon VAN DER LINDE",
+          "Robin FRIJNS"
+        ]
+      },
+      {
+        "name": "CADILLAC V-SERIES.R",
+        "manufacturer": "Cadillac",
+        "team": "Cadillac Wayne Taylor Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["10"],
+        "drivers": [
+          "Filipe ALBUQUERQUE",
+          "Ricky TAYLOR",
+          "Will STEVENS",
+          "Brendon HARTLEY"
+        ]
+      },
+      {
+        "name": "CADILLAC V-SERIES.R",
+        "manufacturer": "Cadillac",
+        "team": "Cadillac Wayne Taylor Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["40"],
+        "drivers": ["Kamui KOBAYASHI", "Jordan TAYLOR", "Louis DELETRAZ"]
+      },
+      {
+        "name": "CADILLAC V-SERIES.R",
+        "manufacturer": "Cadillac",
+        "team": "Cadillac Wayne Taylor Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["40"],
+        "drivers": ["Kamui KOBAYASHI", "Jordan TAYLOR", "Louis DELETRAZ"]
+      }
+    ],
     "LMP2": [],
     "GTD PRO": [],
     "GTD": []
   }
 }
-
