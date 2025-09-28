@@ -21,10 +21,10 @@ const selected = teams[series]?.[curCategory];
 
 ---
 
+<!-- TODO - ADICIONAR GTD E GTD PRO NO JSON -->
+
 
 <Layout>
-
-	<!-- TODO MELHORAR ESSE MENU -->
 	<nav>
 		{categories.map(category => (
 			<a href={`/${series}?cat=${category}`} class={category === curCategory ? "active" : ""}>{category}</a>

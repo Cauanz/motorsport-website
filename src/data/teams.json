@@ -5,97 +5,131 @@
         "name": "Alpine A424",
         "manufacturer": "Alpine",
         "team": "Alpine Endurance Team",
-        "image": "/2025-lm-35-alpine-droite_1959b6.png",
-        "logo": "/alpine_38067f.png",
+        "image": "/public/2025-lm-35-alpine-droite_1959b6.png",
+        "logo": "/public/alpine_38067f.png",
         "country": {
           "name": "France",
           "abr": "FRA"
         },
-        "carNumbers": ["35", "36"],
-        "drivers": [
-          "Paul-Loup CHATIN",
-          "Ferdinand HABSBURG",
-          "Charles MILESI",
-          "Jules GOUNON",
-          "Frédéric MAKOWIECKI",
-          "Mick SCHUMACHER"
-        ]
+        "carNumbers": ["35"],
+        "drivers": ["Paul-Loup CHATIN", "Ferdinand HABSBURG", "Charles MILESI"]
+      },
+      {
+        "name": "Alpine A424",
+        "manufacturer": "Alpine",
+        "team": "Alpine Endurance Team",
+        "image": "/public/2_d9d399.png",
+        "logo": "/public/alpine_38067f.png",
+        "country": {
+          "name": "France",
+          "abr": "FRA"
+        },
+        "carNumbers": ["36"],
+        "drivers": ["Jules GOUNON", "Frédéric MAKOWIECKI", "Mick SCHUMACHER"]
       },
       {
         "name": "Aston Martin Valkyrie",
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
-        "image": "/2025-wec-007-aston-martin-valkyrie-droite_6067f5.png",
-        "logo": "/aston_067ffd.png",
+        "image": "/public/2025-wec-007-aston-martin-valkyrie-droite_6067f5.png",
+        "logo": "/public/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": ["007", "009"],
-        "drivers": [
-          "Harry TINCKNELL",
-          "Tom GAMBLE",
-          "Ross GUNN",
-          "Alex RIBERAS",
-          "Marco SøRENSEN",
-          "Roman Senna DE ANGELIS"
-        ]
+        "carNumbers": ["007"],
+        "drivers": ["Harry TINCKNELL", "Tom GAMBLE", "Ross GUNN"]
+      },
+      {
+        "name": "Aston Martin Valkyrie",
+        "manufacturer": "Aston Martin",
+        "team": "Aston Martin THOR Team",
+        "image": "/public/2025-wec-009-aston-martin-valkyrie-droite_6367f5.png",
+        "logo": "/public/aston_067ffd.png",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["009"],
+        "drivers": ["Alex RIBERAS", "Marco SøRENSEN", "Roman Senna DE ANGELIS"]
       },
       {
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M TEAM WRT",
-        "image": "/2_9c473f.png",
-        "logo": "/bmw_7ffdd7.png",
+        "image": "/public/2_9c473f.png",
+        "logo": "/public/bmw_7ffdd7.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
         },
-        "carNumbers": ["15", "20"],
-        "drivers": [
-          "Dries VANTHOOR",
-          "Raffaele MARCIELLO",
-          "Kevin MAGNUSSEN",
-          "René RAST",
-          "Robin FRIJNS",
-          "Sheldon VAN DER LINDE"
-        ]
+        "carNumbers": ["15"],
+        "drivers": ["Dries VANTHOOR", "Raffaele MARCIELLO", "Kevin MAGNUSSEN"]
+      },
+      {
+        "name": "BMW M HYBRID V8",
+        "manufacturer": "BMW",
+        "team": "BMW M TEAM WRT",
+        "image": "/public/2_167b99.png",
+        "logo": "/public/bmw_7ffdd7.png",
+        "country": {
+          "name": "Germany",
+          "abr": "GER"
+        },
+        "carNumbers": ["20"],
+        "drivers": ["René RAST", "Robin FRIJNS", "Sheldon VAN DER LINDE"]
       },
       {
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac HERTZ TEAM JOTA",
-        "image": "/2_377b99.png",
+        "image": "/public/2_568b99.png",
         "logo": "/cadillac_51067f.png",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": ["12", "38"],
-        "drivers": [
-          "Alex LYNN",
-          "Norman NATO",
-          "Will STEVENS",
-          "Earl BAMBER",
-          "Sébastien BOURDAIS",
-          "Jenson BUTTON"
-        ]
+        "carNumbers": ["12"],
+        "drivers": ["Alex LYNN", "Norman NATO", "Will STEVENS"]
+      },
+      {
+        "name": "CADILLAC V-SERIES.R",
+        "manufacturer": "Cadillac",
+        "team": "Cadillac HERTZ TEAM JOTA",
+        "image": "/public/2_377b99.png",
+        "logo": "/cadillac_51067f.png",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["38"],
+        "drivers": ["Earl BAMBER", "Sébastien BOURDAIS", "Jenson BUTTON"]
       },
       {
         "name": "FERRARI 499P",
         "manufacturer": "Ferrari",
         "team": "Ferrari AF CORSE",
-        "image": "/2_9d9324.png",
+        "image": "/public/2_9d9324.png",
         "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "Italy",
           "abr": "ITA"
         },
-        "carNumbers": ["50", "51"],
+        "carNumbers": ["50"],
+        "drivers": ["Antonio FUOCO", "Miguel MOLINA", "Nicklas NIELSEN"]
+      },
+      {
+        "name": "FERRARI 499P",
+        "manufacturer": "Ferrari",
+        "team": "Ferrari AF CORSE",
+        "image": "/public/2_b99d9d.png",
+        "logo": "/ferrari_bf0975.png",
+        "country": {
+          "name": "Italy",
+          "abr": "ITA"
+        },
+        "carNumbers": ["51"],
         "drivers": [
-          "Antonio FUOCO",
-          "Miguel MOLINA",
-          "Nicklas NIELSEN",
           "Alessandro PIER GUIDI",
           "James CALADO",
           "Antonio GIOVINAZZI"
@@ -118,38 +152,58 @@
         "name": "PEUGEOT 9X8",
         "manufacturer": "Peugeot",
         "team": "Peugeot TOTALENERGIES",
-        "image": "/2_99da00.png",
+        "image": "/public/2_99d9fd.png",
         "logo": "/peugeot_667ffd.png",
         "country": {
           "name": "France",
           "abr": "FRA"
         },
-        "carNumbers": ["93", "94"],
+        "carNumbers": ["93"],
+        "drivers": ["Paul DI RESTA", "Mikkel JENSEN", "Jean-Eric VERGNE"]
+      },
+      {
+        "name": "PEUGEOT 9X8",
+        "manufacturer": "Peugeot",
+        "team": "Peugeot TOTALENERGIES",
+        "image": "/public/2_99da00.png",
+        "logo": "/peugeot_667ffd.png",
+        "country": {
+          "name": "France",
+          "abr": "FRA"
+        },
+        "carNumbers": ["94"],
+        "drivers": ["Loïc DUVAL", "Malthe JAKOBSEN", "Stoffel VANDOORNE"]
+      },
+      {
+        "name": "PORSCHE 963",
+        "manufacturer": "Porsche",
+        "team": "Porsche Penske Motorspost",
+        "image": "/public/2_66467b.png",
+        "logo": "/porsche_67ffdf.png",
+        "country": {
+          "name": "Germany",
+          "abr": "GER"
+        },
+        "carNumbers": ["5"],
         "drivers": [
-          "Paul DI RESTA",
-          "Mikkel JENSEN",
-          "Jean-Eric VERGNE",
-          "Loïc DUVAL",
-          "Malthe JAKOBSEN",
-          "Stoffel VANDOORNE"
+          "Julien ANDLAUER",
+          "Michael CHRISTENSEN",
+          "Mathieu JAMINET",
+          "Nico MÜLLER"
         ]
       },
       {
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorspost",
-        "image": "/2_e70d15.png",
+        "image": "/public/2_e70d15.png",
         "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
         },
-        "carNumbers": ["5", "6"],
+        "carNumbers": ["6"],
         "drivers": [
-          "Julien ANDLAUER",
-          "Michael CHRISTENSEN",
-          "Mathieu JAMINET",
-          "Nico MÜLLER",
           "Kévin ESTRE",
           "Laurens VANTHOOR",
           "Matt CAMPBELL",
@@ -173,21 +227,32 @@
         "name": "TOYOTA GR010 - Hybrid",
         "manufacturer": "Toyota",
         "team": "Toyota GAZOO Racing",
+        "image": "/public/2_7967b9.png",
+        "logo": "/toyota_ff029e.png",
+        "country": {
+          "name": "Japan",
+          "abr": "JPN"
+        },
+        "carNumbers": ["7"],
+        "drivers": [
+          "Mike CONWAY",
+          "Kamui KOBAYASHI",
+          "Nyck DE VRIES",
+          "Jose Maria LOPEZ"
+        ]
+      },
+      {
+        "name": "TOYOTA GR010 - Hybrid",
+        "manufacturer": "Toyota",
+        "team": "Toyota GAZOO Racing",
         "image": "/2_9f9d8f.png",
         "logo": "/toyota_ff029e.png",
         "country": {
           "name": "Japan",
           "abr": "JPN"
         },
-        "carNumbers": ["7", "8"],
-        "drivers": [
-          "Mike CONWAY",
-          "Kamui KOBAYASHI",
-          "Nyck DE VRIES",
-          "Sébastien BUEMI",
-          "Brendon HARTLEY",
-          "Ryo HIRAKAWA"
-        ]
+        "carNumbers": ["8"],
+        "drivers": ["Sébastien BUEMI", "Brendon HARTLEY", "Ryo HIRAKAWA"]
       }
     ],
     "lmgt3": [
@@ -612,18 +677,321 @@
       {
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
-        "team": "Cadillac Wayne Taylor Racing",
+        "team": "Whelen Engineering Cadillac Racing",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": ["40"],
-        "drivers": ["Kamui KOBAYASHI", "Jordan TAYLOR", "Louis DELETRAZ"]
+        "carNumbers": ["31"],
+        "drivers": [
+          "Earl BAMBER",
+          "Jack AITKEN",
+          "Frederik VESTI",
+          "Felipe DRUGOVICH"
+        ]
+      },
+      {
+        "name": "PORSCHE 963",
+        "manufacturer": "Porsche",
+        "team": "JDC-Miller MotorSports",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["85"],
+        "drivers": [
+          "Gianmaria BRUNI",
+          "Tijmen VAN DER HELM",
+          "Pascal WEHRLEIN",
+          "Bryce ARON"
+        ]
+      },
+      {
+        "name": "PORSCHE 963",
+        "manufacturer": "Porsche",
+        "team": "Porsche Penske Motorsport",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["6"],
+        "drivers": ["Matt CAMPBELL", "Mathieu JAMINET", "Kévin ESTRE"]
+      },
+      {
+        "name": "PORSCHE 963",
+        "manufacturer": "Porsche",
+        "team": "Porsche Penske Motorsport",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["7"],
+        "drivers": ["Felipe NASR", "Nick TANDY", "Laurens VANTHOOR"]
+      },
+      {
+        "name": "PORSCHE 963",
+        "manufacturer": "Porsche",
+        "team": "Proton Competition",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["5"],
+        "drivers": [
+          "Tristian VAUTIER",
+          "Nicolas PINO",
+          "Julien ANDLAUER",
+          "Neel JANI"
+        ]
       }
     ],
-    "LMP2": [],
+    "LMP2": [
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Af Corse",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["88"],
+        "drivers": [
+          "Matthieu VAXIVIERE",
+          "Nicklas NIELSEN",
+          "Dylan MURRY",
+          "Luis perez COMPANC"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "AO Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["99"],
+        "drivers": [
+          "Dane CAMERON",
+          "Christian RASMUSSEN",
+          "Pj HYETT",
+          "Jonny EDGAR"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Crowdstrike Racing by APR",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["04"],
+        "drivers": [
+          "Colton HERTA",
+          "Malthe JAKOBSEN",
+          "George KURTZ",
+          "Toby SOWERY"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Era Motorsport",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["18"],
+        "drivers": [
+          "Ryan DALZIEL",
+          "David heinemeier HANSSON",
+          "Paul-Loup CHATIN",
+          "Tobi LUTKE"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Inter Europol Competition",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["43"],
+        "drivers": [
+          "Bijoy GARG",
+          "Tom DILLMAN",
+          "Jon FIELD",
+          "Antonio FELIX DE COSTA"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "PR1 Mathiasen Motorsports",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["52"],
+        "drivers": [
+          "Ben KEATING",
+          "Rodrigo SALES",
+          "Benjamin PEDERSEN",
+          "Mathias BECHE"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Pratt Miller Motorsports",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["73"],
+        "drivers": [
+          "Jordan PEPPER",
+          "Pietro FITTIPALDI",
+          "James ROE",
+          "Callum ILLOT",
+          "Chris CUMMING"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Riley Motorsports",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["74"],
+        "drivers": [
+          "Felipe FRAGA",
+          "Gar ROBINSON",
+          "Josh BURDON",
+          "Felipe MASSA"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "TDS Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["11"],
+        "drivers": [
+          "Steven THOMAS",
+          "Charles MILESI",
+          "Mikkel JENSEN",
+          "Hunter MCELREA"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "Tower Motorsports",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["8"],
+        "drivers": [
+          "Sebastien BOURDAIS",
+          "John FARANO",
+          "Job VAN UITERT",
+          "Sebastian ALVAREZ"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "United Autosports USA",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["2"],
+        "drivers": [
+          "Ben HANLEY",
+          "Oliver JARVIS",
+          "Nick BOULLE",
+          "Garnet PATTERSON"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "United Autosports USA",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["22"],
+        "drivers": [
+          "James ALLEN",
+          "Rasmus LINDH",
+          "Daniel GOLDBURG",
+          "Paul DI RESTA"
+        ]
+      },
+      {
+        "name": "ORECA LMP2 07",
+        "manufacturer": "Oreca",
+        "team": "United Autosports USA",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["22"],
+        "drivers": [
+          "James ALLEN",
+          "Rasmus LINDH",
+          "Daniel GOLDBURG",
+          "Paul DI RESTA"
+        ]
+      }
+    ],
     "GTD PRO": [],
     "GTD": []
   }

@@ -10,7 +10,14 @@
 <div class="card">
   <h2>{team.name}</h2>
 
+  <ul>
+    {team.drivers.map((name) => (
+      <li>{name}</li>
+    ))}
+  </ul>
+
   <img src={team.image} alt="car">
+  <!-- <img src={team.logo} alt="car"> -->
 </div>
 
 <style>
