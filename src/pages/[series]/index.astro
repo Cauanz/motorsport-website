@@ -17,7 +17,7 @@ const { series } = Astro.params as { series: "wec" | "imsa" };
 const categories = Object.keys(teams[series]) as Array<keyof typeof teams[typeof series]>;
 const curCategory = (Astro.url.searchParams.get("cat") as keyof typeof teams[typeof series]) ?? categories[0];
 
-const selected = teams[series]?.[curCategory];
+const selected: string[] = teams[series]?.[curCategory];
 
 ---
 
@@ -36,9 +36,11 @@ const selected = teams[series]?.[curCategory];
 
 
 	<main>
-		{selected.map(team => (
-			<CardTeam team={team} />
-		)) }
+		<div class="card-container">
+			{selected.map((team: string) => (
+				<CardTeam team={team} />
+			)) }
+			</div>
 	</main>
 	
 	
@@ -49,6 +51,11 @@ const selected = teams[series]?.[curCategory];
 
 
 <style>
+
+	.card-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 
 	.title {
 		font-weight: bold;
