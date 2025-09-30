@@ -544,7 +544,7 @@
         "name": "Acura Motorsports ARX-06",
         "manufacturer": "Acura",
         "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
-        "image": "",
+        "image": "/public/25_WT_GTP_60_MSR_ACURA_ARX06_SEBRING-922x236.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -562,7 +562,7 @@
         "name": "Acura Motorsports ARX-06",
         "manufacturer": "Acura",
         "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
-        "image": "",
+        "image": "/public/25_WT_GTP_93_MSR_ACURA_ARX06_SEBRING-922x236.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -580,7 +580,7 @@
         "name": "Aston Martin Valkyrie",
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
-        "image": "",
+        "image": "/public/25_WT_GTP_23_AMR_THOR_ASTON_MARTIN_VALKYRIE-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -593,7 +593,7 @@
         "name": "Lamborghini SC63",
         "manufacturer": "Lamborghini",
         "team": "Automobili Lamborghini Squadra Corse",
-        "image": "",
+        "image": "/public/25_WT_GTP_63_RILEY_LAMBO_SC63_1-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -611,7 +611,7 @@
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
-        "image": "",
+        "image": "/public/25_WT_GTP_24_RLL_BMW_M_hybrid_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -629,7 +629,7 @@
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
-        "image": "",
+        "image": "/public/25_WT_GTP_25_RLL_BMW_M_hybrid_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -647,7 +647,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
-        "image": "",
+        "image": "/public/25_WT_GTP_10_WTR_CADILLAC_V_LMDH-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -665,7 +665,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
-        "image": "",
+        "image": "/public/25_WT_GTP_40_WTR_CADILLAC_V_LMDH-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -678,7 +678,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Whelen Engineering Cadillac Racing",
-        "image": "",
+        "image": "/public/25_WT_GTP_31_AX_CADILLAC_V_LMDH-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -696,7 +696,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "JDC-Miller MotorSports",
-        "image": "",
+        "image": "/public/25_WT_GTP_85_JDC_MILLER_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -714,7 +714,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorsport",
-        "image": "",
+        "image": "/public/25_WT_GTP_6_PENSKE_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -727,7 +727,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorsport",
-        "image": "",
+        "image": "/public/25_WT_GTP_7_PENSKE_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -740,7 +740,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Proton Competition",
-        "image": "",
+        "image": "/public/25_WT_GTP_5_PROTON_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -760,7 +760,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Af Corse",
-        "image": "",
+        "image": "/public/25_WT_P2_88_PECOM_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -778,7 +778,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "AO Racing",
-        "image": "",
+        "image": "/public/25_WT_P2_99_AO_ORECA_WGI-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -796,7 +796,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Crowdstrike Racing by APR",
-        "image": "",
+        "image": "/public/25_WT_P2_04_CROWDSTRIKE_APR_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -814,7 +814,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Era Motorsport",
-        "image": "",
+        "image": "/public/25_WT_P2_18_ERA_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -832,7 +832,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Inter Europol Competition",
-        "image": "",
+        "image": "/public/25_WT_P2_43_INTER_EUROPOL_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -850,7 +850,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "PR1 Mathiasen Motorsports",
-        "image": "",
+        "image": "/public/25_WT_P2_52_PR1_ORECA_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -868,7 +868,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Pratt Miller Motorsports",
-        "image": "",
+        "image": "/public/25_WT_P2_73_PRATT_MILLER_ORECA-WGI-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -887,7 +887,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Riley Motorsports",
-        "image": "",
+        "image": "/public/25_WT_P2_74_RILEY_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -905,7 +905,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "TDS Racing",
-        "image": "",
+        "image": "/public/25_WT_P2_11_TDS_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -923,7 +923,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Tower Motorsports",
-        "image": "",
+        "image": "/public/25_WT_P2_8_TOWER_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -941,7 +941,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "United Autosports USA",
-        "image": "",
+        "image": "/public/25_WT_P2_2_UNITED_ORECA_CTMP-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -959,25 +959,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "United Autosports USA",
-        "image": "",
-        "logo": "",
-        "country": {
-          "name": "United States",
-          "abr": "USA"
-        },
-        "carNumbers": ["22"],
-        "drivers": [
-          "James ALLEN",
-          "Rasmus LINDH",
-          "Daniel GOLDBURG",
-          "Paul DI RESTA"
-        ]
-      },
-      {
-        "name": "ORECA LMP2 07",
-        "manufacturer": "Oreca",
-        "team": "United Autosports USA",
-        "image": "",
+        "image": "/public/25_WT_P2_22_UNITED_ORECA_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",

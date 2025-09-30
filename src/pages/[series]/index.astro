@@ -23,12 +23,18 @@ const selected: string[] = teams[series]?.[curCategory];
 
 <!-- TODO - ADICIONAR GTD E GTD PRO NO JSON -->
 
-
 <Layout>
 	<nav>
 		{categories.map(category => (
 			<a href={`/${series}?cat=${category}`} class={category === curCategory ? "active" : ""}>{category}</a>
 		))}
+		{series === 'wec' ? (
+			<a href={`/wec-tracks`}>Tracks</a>
+			<a href={`/wec-results`}>Results</a>
+		) : (
+			<a href={`/imsa-tracks`}>Tracks</a>
+			<a href={`/imsa-results`}>Results</a>
+		)}
 	</nav>
 
 	<div class="main">
