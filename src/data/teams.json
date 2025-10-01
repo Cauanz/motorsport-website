@@ -5,8 +5,8 @@
         "name": "Alpine A424",
         "manufacturer": "Alpine",
         "team": "Alpine Endurance Team",
-        "image": "/public/2025-lm-35-alpine-droite_1959b6.png",
-        "logo": "/public/alpine_38067f.png",
+        "image": "/2025-lm-35-alpine-droite_1959b6.png",
+        "logo": "/alpine_38067f.png",
         "country": {
           "name": "France",
           "abr": "FRA"
@@ -18,8 +18,8 @@
         "name": "Alpine A424",
         "manufacturer": "Alpine",
         "team": "Alpine Endurance Team",
-        "image": "/public/2_d9d399.png",
-        "logo": "/public/alpine_38067f.png",
+        "image": "/2_d9d399.png",
+        "logo": "/alpine_38067f.png",
         "country": {
           "name": "France",
           "abr": "FRA"
@@ -31,8 +31,8 @@
         "name": "Aston Martin Valkyrie",
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
-        "image": "/public/2025-wec-007-aston-martin-valkyrie-droite_6067f5.png",
-        "logo": "/public/aston_067ffd.png",
+        "image": "/2025-wec-007-aston-martin-valkyrie-droite_6067f5.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -44,8 +44,8 @@
         "name": "Aston Martin Valkyrie",
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
-        "image": "/public/2025-wec-009-aston-martin-valkyrie-droite_6367f5.png",
-        "logo": "/public/aston_067ffd.png",
+        "image": "/2025-wec-009-aston-martin-valkyrie-droite_6367f5.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -57,8 +57,8 @@
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M TEAM WRT",
-        "image": "/public/2_9c473f.png",
-        "logo": "/public/bmw_7ffdd7.png",
+        "image": "/2_9c473f.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
@@ -70,8 +70,8 @@
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M TEAM WRT",
-        "image": "/public/2_167b99.png",
-        "logo": "/public/bmw_7ffdd7.png",
+        "image": "/2_167b99.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
@@ -83,7 +83,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac HERTZ TEAM JOTA",
-        "image": "/public/2_568b99.png",
+        "image": "/2_568b99.png",
         "logo": "/cadillac_51067f.png",
         "country": {
           "name": "United States",
@@ -96,7 +96,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac HERTZ TEAM JOTA",
-        "image": "/public/2_377b99.png",
+        "image": "/2_377b99.png",
         "logo": "/cadillac_51067f.png",
         "country": {
           "name": "United States",
@@ -109,7 +109,7 @@
         "name": "FERRARI 499P",
         "manufacturer": "Ferrari",
         "team": "Ferrari AF CORSE",
-        "image": "/public/2_9d9324.png",
+        "image": "/2_9d9324.png",
         "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "Italy",
@@ -122,7 +122,7 @@
         "name": "FERRARI 499P",
         "manufacturer": "Ferrari",
         "team": "Ferrari AF CORSE",
-        "image": "/public/2_b99d9d.png",
+        "image": "/2_b99d9d.png",
         "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "Italy",
@@ -152,7 +152,7 @@
         "name": "PEUGEOT 9X8",
         "manufacturer": "Peugeot",
         "team": "Peugeot TOTALENERGIES",
-        "image": "/public/2_99d9fd.png",
+        "image": "/2_99d9fd.png",
         "logo": "/peugeot_667ffd.png",
         "country": {
           "name": "France",
@@ -165,7 +165,7 @@
         "name": "PEUGEOT 9X8",
         "manufacturer": "Peugeot",
         "team": "Peugeot TOTALENERGIES",
-        "image": "/public/2_99da00.png",
+        "image": "/2_99da00.png",
         "logo": "/peugeot_667ffd.png",
         "country": {
           "name": "France",
@@ -178,7 +178,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorspost",
-        "image": "/public/2_66467b.png",
+        "image": "/2_66467b.png",
         "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "Germany",
@@ -196,7 +196,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorspost",
-        "image": "/public/2_e70d15.png",
+        "image": "/2_e70d15.png",
         "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "Germany",
@@ -227,7 +227,7 @@
         "name": "TOYOTA GR010 - Hybrid",
         "manufacturer": "Toyota",
         "team": "Toyota GAZOO Racing",
-        "image": "/public/2_7967b9.png",
+        "image": "/2_7967b9.png",
         "logo": "/toyota_ff029e.png",
         "country": {
           "name": "Japan",
@@ -260,8 +260,8 @@
         "name": "Aston Martin Vantage AMR LMGT3",
         "manufacturer": "Aston Martin",
         "team": "Racing Spirit of leman",
-        "image": "/public/2_5767b9.png",
-        "logo": "/public/aston_067ffd.png",
+        "image": "/2_5767b9.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "France",
           "abr": "FRA"
@@ -278,8 +278,8 @@
         "name": "Aston Martin Vantage AMR LMGT3",
         "manufacturer": "Aston Martin",
         "team": "Heart of Racing Team",
-        "image": "/public/2_7b99d10.png",
-        "logo": "/public/aston_067ffd.png",
+        "image": "/2_7b99d10.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -291,8 +291,8 @@
         "name": "BMW M M4 LMGT3",
         "manufacturer": "BMW",
         "team": "The Bend Team WRT",
-        "image": "/public/2_68b99d.png",
-        "logo": "/public/bmw_7ffdd7.png",
+        "image": "/2_68b99d.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "Belgium",
           "abr": "BEL"
@@ -309,8 +309,8 @@
         "name": "BMW M M4 LMGT3",
         "manufacturer": "BMW",
         "team": "TEAM WRT",
-        "image": "/public/2025-wec-46-bmw-m4-gt3-droite_c02d79.png",
-        "logo": "/public/bmw_7ffdd7.png",
+        "image": "/2025-wec-46-bmw-m4-gt3-droite_c02d79.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "Belgium",
           "abr": "BEL"
@@ -326,8 +326,8 @@
         "name": "Corvette Z06 LMGT3.R",
         "manufacturer": "Corvette",
         "team": "TF Sport",
-        "image": "/public/2_b99d9c.png",
-        "logo": "/public/corvette_ffddd1.png",
+        "image": "/2_b99d9c.png",
+        "logo": "/corvette_ffddd1.png",
         "country": {
           "name": "United Kingdom",
           "abr": "GBR"
@@ -339,8 +339,8 @@
         "name": "Corvette Z06 LMGT3.R",
         "manufacturer": "Corvette",
         "team": "TF Sport",
-        "image": "/public/2_b99d9c.png",
-        "logo": "/public/corvette_ffddd1.png",
+        "image": "/2_b99d9c.png",
+        "logo": "/corvette_ffddd1.png",
         "country": {
           "name": "Great Britain",
           "abr": "GBR"
@@ -352,8 +352,8 @@
         "name": "Ferrari 296 LMGT3",
         "manufacturer": "Ferrari",
         "team": "Vista AF Corse",
-        "image": "/public/2_d9c8d4.png",
-        "logo": "/public/ferrari_bf0975.png",
+        "image": "/2_d9c8d4.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "Italy",
           "abr": "ITA"
@@ -365,8 +365,8 @@
         "name": "Ferrari 296 LMGT3",
         "manufacturer": "Ferrari",
         "team": "Vista AF Corse",
-        "image": "/public/2_99d9dd.png",
-        "logo": "/public/ferrari_bf0975.png",
+        "image": "/2_99d9dd.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "Italy",
           "abr": "ITA"
@@ -378,8 +378,8 @@
         "name": "Ford Mustang LMGT3",
         "manufacturer": "Ford",
         "team": "Proton Competition",
-        "image": "/public/2_67b99d.png",
-        "logo": "/public/ford_e3a755.png",
+        "image": "/2_67b99d.png",
+        "logo": "/ford_e3a755.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
@@ -391,8 +391,8 @@
         "name": "Ford Mustang LMGT3",
         "manufacturer": "Ford",
         "team": "Proton Competition",
-        "image": "/public/2_7b99d9.png",
-        "logo": "/public/ford_e3a755.png",
+        "image": "/2_7b99d9.png",
+        "logo": "/ford_e3a755.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
@@ -404,8 +404,8 @@
         "name": "Lexus RC F LMGT3",
         "manufacturer": "Lexus",
         "team": "Akkodis ASP Team",
-        "image": "/public/2_9d9eb6.png",
-        "logo": "/public/lexus_7ffde5.png",
+        "image": "/2_9d9eb6.png",
+        "logo": "/lexus_7ffde5.png",
         "country": {
           "name": "France",
           "abr": "FRA"
@@ -424,8 +424,8 @@
         "name": "Lexus RC F LMGT3",
         "manufacturer": "Lexus",
         "team": "Akkodis ASP Team",
-        "image": "/public/2_8667b9.png",
-        "logo": "/public/lexus_7ffde5.png",
+        "image": "/2_8667b9.png",
+        "logo": "/lexus_7ffde5.png",
         "country": {
           "name": "France",
           "abr": "FRA"
@@ -442,8 +442,8 @@
         "name": "McLaren 720S LMGT3 EVO",
         "manufacturer": "Mclaren",
         "team": "United Autosports",
-        "image": "/public/2_df02e2.png",
-        "logo": "/public/mclaren_bd5d12.png",
+        "image": "/2_df02e2.png",
+        "logo": "/mclaren_bd5d12.png",
         "country": {
           "name": "United Kingdom",
           "abr": "GBR"
@@ -455,8 +455,8 @@
         "name": "McLaren 720S LMGT3 EVO",
         "manufacturer": "Mclaren",
         "team": "United Autosports",
-        "image": "/public/2_67767b.png",
-        "logo": "/public/mclaren_bd5d12.png",
+        "image": "/2_67767b.png",
+        "logo": "/mclaren_bd5d12.png",
         "country": {
           "name": "United Kingdom",
           "abr": "GBR"
@@ -468,8 +468,8 @@
         "name": "Mercedes-AMG LMGT3",
         "manufacturer": "Mercedes-Benz",
         "team": "Iron Lynx",
-        "image": "/public/2_9d9e36.png",
-        "logo": "/public/mercedes_6823cf.png",
+        "image": "/2_9d9e36.png",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "Italy",
           "abr": "ITA"
@@ -490,8 +490,8 @@
         "name": "Mercedes-AMG LMGT3",
         "manufacturer": "Mercedes-Benz",
         "team": "Iron Lynx",
-        "image": "/public/2_267b99.png",
-        "logo": "/public/mercedes_6823cf.png",
+        "image": "/2_267b99.png",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "Italy",
           "abr": "ITA"
@@ -508,8 +508,8 @@
         "name": "Porsche 911 GT3 R LMGT3",
         "manufacturer": "Porsche",
         "team": "Iron Dames",
-        "image": "/public/2_f3bfc7.png",
-        "logo": "/public/porsche_67ffdf.png",
+        "image": "/2_f3bfc7.png",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "Italy",
           "abr": "ITA"
@@ -526,8 +526,8 @@
         "name": "Porsche 911 GT3 R LMGT3",
         "manufacturer": "Porsche",
         "team": "Manthey 1ST PHORM",
-        "image": "/public/2_567b99.png",
-        "logo": "/public/porsche_67ffdf.png",
+        "image": "/2_567b99.png",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "Germany",
           "abr": "GER"
@@ -544,7 +544,7 @@
         "name": "Acura Motorsports ARX-06",
         "manufacturer": "Acura",
         "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
-        "image": "/public/25_WT_GTP_60_MSR_ACURA_ARX06_SEBRING-922x236.png",
+        "image": "/25_WT_GTP_60_MSR_ACURA_ARX06_SEBRING-922x236.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -562,7 +562,7 @@
         "name": "Acura Motorsports ARX-06",
         "manufacturer": "Acura",
         "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
-        "image": "/public/25_WT_GTP_93_MSR_ACURA_ARX06_SEBRING-922x236.png",
+        "image": "/25_WT_GTP_93_MSR_ACURA_ARX06_SEBRING-922x236.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -580,7 +580,7 @@
         "name": "Aston Martin Valkyrie",
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
-        "image": "/public/25_WT_GTP_23_AMR_THOR_ASTON_MARTIN_VALKYRIE-922x235.png",
+        "image": "/25_WT_GTP_23_AMR_THOR_ASTON_MARTIN_VALKYRIE-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -593,7 +593,7 @@
         "name": "Lamborghini SC63",
         "manufacturer": "Lamborghini",
         "team": "Automobili Lamborghini Squadra Corse",
-        "image": "/public/25_WT_GTP_63_RILEY_LAMBO_SC63_1-922x235.png",
+        "image": "/25_WT_GTP_63_RILEY_LAMBO_SC63_1-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -611,7 +611,7 @@
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
-        "image": "/public/25_WT_GTP_24_RLL_BMW_M_hybrid_SEBRING-922x235.png",
+        "image": "/25_WT_GTP_24_RLL_BMW_M_hybrid_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -629,7 +629,7 @@
         "name": "BMW M HYBRID V8",
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
-        "image": "/public/25_WT_GTP_25_RLL_BMW_M_hybrid_SEBRING-922x235.png",
+        "image": "/25_WT_GTP_25_RLL_BMW_M_hybrid_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -647,7 +647,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
-        "image": "/public/25_WT_GTP_10_WTR_CADILLAC_V_LMDH-922x235.png",
+        "image": "/25_WT_GTP_10_WTR_CADILLAC_V_LMDH-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -665,7 +665,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
-        "image": "/public/25_WT_GTP_40_WTR_CADILLAC_V_LMDH-922x235.png",
+        "image": "/25_WT_GTP_40_WTR_CADILLAC_V_LMDH-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -678,7 +678,7 @@
         "name": "CADILLAC V-SERIES.R",
         "manufacturer": "Cadillac",
         "team": "Whelen Engineering Cadillac Racing",
-        "image": "/public/25_WT_GTP_31_AX_CADILLAC_V_LMDH-922x235.png",
+        "image": "/25_WT_GTP_31_AX_CADILLAC_V_LMDH-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -696,7 +696,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "JDC-Miller MotorSports",
-        "image": "/public/25_WT_GTP_85_JDC_MILLER_PORSCHE_963-922x235.png",
+        "image": "/25_WT_GTP_85_JDC_MILLER_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -714,7 +714,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorsport",
-        "image": "/public/25_WT_GTP_6_PENSKE_PORSCHE_963-922x235.png",
+        "image": "/25_WT_GTP_6_PENSKE_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -727,7 +727,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorsport",
-        "image": "/public/25_WT_GTP_7_PENSKE_PORSCHE_963-922x235.png",
+        "image": "/25_WT_GTP_7_PENSKE_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -740,7 +740,7 @@
         "name": "PORSCHE 963",
         "manufacturer": "Porsche",
         "team": "Proton Competition",
-        "image": "/public/25_WT_GTP_5_PROTON_PORSCHE_963-922x235.png",
+        "image": "/25_WT_GTP_5_PROTON_PORSCHE_963-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -760,7 +760,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Af Corse",
-        "image": "/public/25_WT_P2_88_PECOM_ORECA-922x235.png",
+        "image": "/25_WT_P2_88_PECOM_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -778,7 +778,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "AO Racing",
-        "image": "/public/25_WT_P2_99_AO_ORECA_WGI-922x235.png",
+        "image": "/25_WT_P2_99_AO_ORECA_WGI-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -796,7 +796,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Crowdstrike Racing by APR",
-        "image": "/public/25_WT_P2_04_CROWDSTRIKE_APR_ORECA-922x235.png",
+        "image": "/25_WT_P2_04_CROWDSTRIKE_APR_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -814,7 +814,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Era Motorsport",
-        "image": "/public/25_WT_P2_18_ERA_ORECA-922x235.png",
+        "image": "/25_WT_P2_18_ERA_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -832,7 +832,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Inter Europol Competition",
-        "image": "/public/25_WT_P2_43_INTER_EUROPOL_ORECA-922x235.png",
+        "image": "/25_WT_P2_43_INTER_EUROPOL_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -850,7 +850,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "PR1 Mathiasen Motorsports",
-        "image": "/public/25_WT_P2_52_PR1_ORECA_SEBRING-922x235.png",
+        "image": "/25_WT_P2_52_PR1_ORECA_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -868,7 +868,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Pratt Miller Motorsports",
-        "image": "/public/25_WT_P2_73_PRATT_MILLER_ORECA-WGI-922x235.png",
+        "image": "/25_WT_P2_73_PRATT_MILLER_ORECA-WGI-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -887,7 +887,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Riley Motorsports",
-        "image": "/public/25_WT_P2_74_RILEY_ORECA-922x235.png",
+        "image": "/25_WT_P2_74_RILEY_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -905,7 +905,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "TDS Racing",
-        "image": "/public/25_WT_P2_11_TDS_ORECA-922x235.png",
+        "image": "/25_WT_P2_11_TDS_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -923,7 +923,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "Tower Motorsports",
-        "image": "/public/25_WT_P2_8_TOWER_ORECA-922x235.png",
+        "image": "/25_WT_P2_8_TOWER_ORECA-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -941,7 +941,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "United Autosports USA",
-        "image": "/public/25_WT_P2_2_UNITED_ORECA_CTMP-922x235.png",
+        "image": "/25_WT_P2_2_UNITED_ORECA_CTMP-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -959,7 +959,7 @@
         "name": "ORECA LMP2 07",
         "manufacturer": "Oreca",
         "team": "United Autosports USA",
-        "image": "/public/25_WT_P2_22_UNITED_ORECA_SEBRING-922x235.png",
+        "image": "/25_WT_P2_22_UNITED_ORECA_SEBRING-922x235.png",
         "logo": "",
         "country": {
           "name": "United States",
@@ -974,7 +974,239 @@
         ]
       }
     ],
-    "GTD PRO": [],
+    "GTD PRO": [
+      {
+        "name": "Mercedes-AMG GT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "75 Express",
+        "image": "/25_WT_GTDPRO_75_SUNENERGY1_MERCEDES-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["75"],
+        "drivers": [
+          "Jules GOUNON",
+          "Mikael GRENIER",
+          "Kenny HABUL",
+          "Maro ENGEL"
+        ]
+      },
+      {
+        "name": "Porsche 911 GT3 R (992)",
+        "manufacturer": "Porsche",
+        "team": "AO Racing",
+        "image": "/25_WT_GTDPRO_77_AO_PORSCHE_992_GT3R-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["77"],
+        "drivers": ["Klaus BACHLER", "Alessio PICARIELLO", "Laurin HEINRICH"]
+      },
+      {
+        "name": "Chevrolet Corvette Z06 GT3.R",
+        "manufacturer": "Chevrolet",
+        "team": "Corvette Racing by Pratt Miller Motorsports",
+        "image": "/25_WT_GTDPRO_3_PRATTMILLER_CORVETTE_GT3-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["3"],
+        "drivers": ["Antonio Garcia", "Alexander SIMS", "Daniel JUNCADELLA"]
+      },
+      {
+        "name": "Chevrolet Corvette Z06 GT3.R",
+        "manufacturer": "Chevrolet",
+        "team": "Corvette Racing by Pratt Miller Motorsports",
+        "image": "/25_WT_GTDPRO_4_PRATTMILLER_CORVETTE_GT3-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["4"],
+        "drivers": ["Tommy MILNER", "Nicky CATSBURG", "Nicolás VARRONE"]
+      },
+      {
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "DragonSpeed",
+        "image": "/25_WT_GTDPRO_81_DRAGONSPEED_FERRARI_296_GT3_WGI-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["81"],
+        "drivers": [
+          "Davide RIGON",
+          "Miguel MOLINA",
+          "Albert Costa BALBOA",
+          "Thomas NEUBAUER",
+          "Giacomo ALTOE"
+        ]
+      },
+      {
+        "name": "Ford Mustang GT3",
+        "manufacturer": "Ford",
+        "team": "Ford Multimatic Motorsports",
+        "image": "/25_WT_GTDPRO_64_MULTIMATIC_MUSTANG_GT3_VIR-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["64"],
+        "drivers": ["Austin CINDRIC", "Mike ROCKENFELLER", "Seb PRIAULX"]
+      },
+      {
+        "name": "Ford Mustang GT3",
+        "manufacturer": "Ford",
+        "team": "Ford Multimatic Motorsports",
+        "image": "/25_WT_GTDPRO_65_MULTIMATIC_MUSTANG_GT3_VIR-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["65"],
+        "drivers": ["Christopher MIES", "Dennis OLSEN", "Frederic VERVISCH"]
+      },
+      {
+        "name": "Mercedes-AMG GT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "GetSpeed",
+        "image": "/25_WT_GTDPRO_69_GETSPEED_MERC_AMG_GT3_EVO-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["69"],
+        "drivers": [
+          "Fabian SCHILLER",
+          "Luca STOLZ",
+          "Maxime MARTIN",
+          "Anthony BARTONE"
+        ]
+      },
+      {
+        "name": "Aston Martin Vantage GT3 EVO",
+        "manufacturer": "Aston Martin",
+        "team": "Heart of Racing Team",
+        "image": "/25_WT_GTDPRO_007_HEART_RACING_ASTON_VANTAGE_EVO_GT3_EVO-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["007"],
+        "drivers": ["Marco SøRENSEN"]
+      },
+      {
+        "name": "BMW M4 GT3 EVO",
+        "manufacturer": "BMW",
+        "team": "Paul Miller Racing",
+        "image": "/25_WT_GTDPRO_1_PAUL_MILLER_BMW_M4_GT3_EVO-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["1"],
+        "drivers": [
+          "Connor DE PHILLIPPI",
+          "Kelvin VAN DER LINDE",
+          "Madison SNOW",
+          "Neil VERHAGEN"
+        ]
+      },
+      {
+        "name": "BMW M4 GT3 EVO",
+        "manufacturer": "BMW",
+        "team": "Paul Miller Racing",
+        "image": "/25_WT_GTDPRO_48_PAUL_MILLER_BMW_M4_GT3_EVO-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["48"],
+        "drivers": ["Jesse KROHN", "Augusto FARFUS", "Max HESSE", "Dan HARPER"]
+      },
+      {
+        "name": "Lamborghini Huracan GT3 EVO2",
+        "manufacturer": "Lamborghini",
+        "team": "Pfaff Motorsports",
+        "image": "/25_WT_GTDPRO_9_PFAFF_LAMBORGHINI_HURACAN_EVO2_INDY-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["9"],
+        "drivers": ["Andrea CALDARELLI", "Marco MAPELLI", "James HINCHCLIFFE"]
+      },
+      {
+        "name": "Porsche 911 GT3 R (992)",
+        "manufacturer": "Porsche",
+        "team": "Proton Competition",
+        "image": "/25_WT_GTDPRO_20_PROTON_PORSCHE_992_GT3R-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["20"],
+        "drivers": [
+          "Matted CRESSONI",
+          "Richard LIETZ",
+          "Claudio SCHIAVONI",
+          "Thomas PREINING"
+        ]
+      },
+      {
+        "name": "Chevrolet Corvette Z06 GT3.R",
+        "manufacturer": "Chevrolet",
+        "team": "Trackhouse by TF Sport",
+        "image": "/25_WT_GTDPRO_91_TFSPORT_CORVETTE_GT3-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["91"],
+        "drivers": [
+          "Ben KEATING",
+          "Scott MCLAUGHLIN",
+          "Connor ZILISCH",
+          "Shane VAN GISBERGEN"
+        ]
+      },
+      {
+        "name": "Lexus RC F GT3",
+        "manufacturer": "Lexus",
+        "team": "Vasser Sullivan",
+        "image": "/25_WT_GTDPRO_14_VASSER_SULLY_LEXUS_RCF_GT3_WGI-922x235.png",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["14"],
+        "drivers": [
+          "Townsend BELL",
+          "Aaron TELITZ",
+          "Kyle KIRKWOOD",
+          "Ben BARNICOAT"
+        ]
+      }
+    ],
     "GTD": []
   }
 }

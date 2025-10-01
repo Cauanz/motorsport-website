@@ -4,6 +4,7 @@ import type { GetStaticPaths } from "astro";
 import Layout from '../../layouts/Layout.astro';
 import teams from "../../data/teams.json";
 import CardTeam from "../../components/CardTeam.astro";
+import ImageCarousel from "../../components/ImageCarousel.astro";
 
 export const getStaticPaths = (() => {
 	return [
@@ -21,7 +22,7 @@ const selected: string[] = teams[series]?.[curCategory];
 
 ---
 
-<!-- TODO - ADICIONAR GTD E GTD PRO NO JSON -->
+<!-- TODO - ADICIONAR GTD NO JSON -->
 
 <Layout>
 	<nav>
@@ -42,6 +43,11 @@ const selected: string[] = teams[series]?.[curCategory];
 
 
 	<main>
+
+		<div class="carousel-container">
+			<ImageCarousel category={selected} />
+		</div>
+
 		<div class="card-container">
 			{selected.map((team: string) => (
 				<CardTeam team={team} />
