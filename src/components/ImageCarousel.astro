@@ -1,5 +1,4 @@
 ---
-
 const { category } = Astro.props;
 
 interface Country {
@@ -17,8 +16,6 @@ interface TeamInfo {
   carNumbers: string[];
   drivers: string[];
 }
-
-
 ---
 
 
@@ -33,7 +30,7 @@ interface TeamInfo {
         <img id="carousel-img" src={category[0].image} alt={category[0].name} />
       <div class="carousel-info">
         <span class="title-container">
-          <h2 id="carousel-title">{category[0].name}</h2>
+          <h2 id="carousel-title">{category[0].name} - {category[0].carNumbers}</h2>
           <img id="carousel-logo" src={category[0].logo} alt="" srcset="">
         </span>
         <p id="carousel-desc">{category[0].team}</p>
@@ -41,6 +38,7 @@ interface TeamInfo {
     </li>
   </ul>
   
+</div>
   <button class="carousel-btn prev" aria-label="Anterior">
     &#8592;
   </button>
@@ -49,10 +47,16 @@ interface TeamInfo {
   </button>
 
 
-</div>
 
   <div class="info">
+    <h2 id="carousel-country">{category[0].country.name} - {category[0].country.abr}</h2>
 
+    <h3>Pilotos</h3>
+    <ul class="drivers-list">
+      {category[0].drivers.map((name: string) => (
+        <li>{name}</li>
+      ))}
+    </ul>
   </div>
 </div>
 
@@ -68,21 +72,39 @@ interface TeamInfo {
   const desc = document.getElementById("carousel-desc");
 	const logo = document.getElementById("carousel-logo");
 
+  const country = document.getElementById("carousel-country");
+
+  const drivers = document.getElementById("drivers-list");
+
 
   document.getElementsByClassName("next")[0].onclick = () => {
     currentIndex = (currentIndex + 1) % category.length;
     img.src = category[currentIndex].image;
-    title.textContent = category[currentIndex].name;
+    title.textContent = category[currentIndex].name + " - " + category[currentIndex].carNumbers;
     desc.textContent = category[currentIndex].team;
 		logo.src = category[currentIndex].logo;
+
+    country.textContent = category[currentIndex].country.name + " - " + category[currentIndex].country.abr
+
+
+    // TODO - DRIVERS NÃO FUNCIONANDO
+    
+    // drivers.innerHTML = "";
+    // category[currentIndex].drivers.forEach((driver) => {
+    //   const li = document.createElement("li");
+    //   li.textContent = driver;
+    //   drivers.appendChild(li);
+    // });
   };
 
   document.getElementsByClassName("prev")[0].onclick = () => {
     currentIndex = (currentIndex - 1 + category.length) % category.length;
     img.src = category[currentIndex].image;
-    title.textContent = category[currentIndex].name;
+    title.textContent = category[currentIndex].name + " - " + category[currentIndex].carNumbers;
     desc.textContent = category[currentIndex].team;
 		logo.src = category[currentIndex].logo;
+
+    country.textContent = category[currentIndex].country.name + " - " + category[currentIndex].country.abr
   };
 
 </script>
@@ -142,10 +164,13 @@ interface TeamInfo {
 	.title-container {
 		display: flex;
 		justify-content: space-between;
+    height: 60px;
+    align-items: center;
 	}
 
   .title-container img {
 		width: 100px;
+    object-fit: contain;
   }
 
   .carousel-info {
@@ -197,12 +222,10 @@ interface TeamInfo {
 
   .carousel-btn.prev {
     left: 10px;
-    top: 48px;
   }
 
   .carousel-btn.next {
     right: 10px;
-    top: 48px;
   }
 
   @media (max-width: 700px) {
