@@ -545,7 +545,7 @@
         "manufacturer": "Acura",
         "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
         "image": "/25_WT_GTP_60_MSR_ACURA_ARX06_SEBRING-922x236.png",
-        "logo": "",
+        "logo": "/2021_Acura_Logo_PCP_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -563,7 +563,7 @@
         "manufacturer": "Acura",
         "team": "Acura Meyer Shank Racing W/Curb-Agajanian",
         "image": "/25_WT_GTP_93_MSR_ACURA_ARX06_SEBRING-922x236.png",
-        "logo": "",
+        "logo": "/2021_Acura_Logo_PCP_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -581,7 +581,7 @@
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
         "image": "/25_WT_GTP_23_AMR_THOR_ASTON_MARTIN_VALKYRIE-922x235.png",
-        "logo": "",
+        "logo": "/public/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -594,7 +594,7 @@
         "manufacturer": "Lamborghini",
         "team": "Automobili Lamborghini Squadra Corse",
         "image": "/25_WT_GTP_63_RILEY_LAMBO_SC63_1-922x235.png",
-        "logo": "",
+        "logo": "/2025_Lamborghini_Mfg_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -612,7 +612,7 @@
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
         "image": "/25_WT_GTP_24_RLL_BMW_M_hybrid_SEBRING-922x235.png",
-        "logo": "",
+        "logo": "/public/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -630,7 +630,7 @@
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
         "image": "/25_WT_GTP_25_RLL_BMW_M_hybrid_SEBRING-922x235.png",
-        "logo": "",
+        "logo": "/public/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -648,7 +648,7 @@
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
         "image": "/25_WT_GTP_10_WTR_CADILLAC_V_LMDH-922x235.png",
-        "logo": "",
+        "logo": "/public/cadillac_51067f.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -666,7 +666,7 @@
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
         "image": "/25_WT_GTP_40_WTR_CADILLAC_V_LMDH-922x235.png",
-        "logo": "",
+        "logo": "/cadillac_51067f.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -679,7 +679,7 @@
         "manufacturer": "Cadillac",
         "team": "Whelen Engineering Cadillac Racing",
         "image": "/25_WT_GTP_31_AX_CADILLAC_V_LMDH-922x235.png",
-        "logo": "",
+        "logo": "/cadillac_51067f.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -697,7 +697,7 @@
         "manufacturer": "Porsche",
         "team": "JDC-Miller MotorSports",
         "image": "/25_WT_GTP_85_JDC_MILLER_PORSCHE_963-922x235.png",
-        "logo": "",
+        "logo": "/public/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -715,7 +715,7 @@
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorsport",
         "image": "/25_WT_GTP_6_PENSKE_PORSCHE_963-922x235.png",
-        "logo": "",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -728,7 +728,7 @@
         "manufacturer": "Porsche",
         "team": "Porsche Penske Motorsport",
         "image": "/25_WT_GTP_7_PENSKE_PORSCHE_963-922x235.png",
-        "logo": "",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -741,7 +741,7 @@
         "manufacturer": "Porsche",
         "team": "Proton Competition",
         "image": "/25_WT_GTP_5_PROTON_PORSCHE_963-922x235.png",
-        "logo": "",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -761,7 +761,7 @@
         "manufacturer": "Oreca",
         "team": "Af Corse",
         "image": "/25_WT_P2_88_PECOM_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -779,7 +779,7 @@
         "manufacturer": "Oreca",
         "team": "AO Racing",
         "image": "/25_WT_P2_99_AO_ORECA_WGI-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -797,7 +797,7 @@
         "manufacturer": "Oreca",
         "team": "Crowdstrike Racing by APR",
         "image": "/25_WT_P2_04_CROWDSTRIKE_APR_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -815,7 +815,7 @@
         "manufacturer": "Oreca",
         "team": "Era Motorsport",
         "image": "/25_WT_P2_18_ERA_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -833,7 +833,7 @@
         "manufacturer": "Oreca",
         "team": "Inter Europol Competition",
         "image": "/25_WT_P2_43_INTER_EUROPOL_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -851,7 +851,7 @@
         "manufacturer": "Oreca",
         "team": "PR1 Mathiasen Motorsports",
         "image": "/25_WT_P2_52_PR1_ORECA_SEBRING-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -869,7 +869,7 @@
         "manufacturer": "Oreca",
         "team": "Pratt Miller Motorsports",
         "image": "/25_WT_P2_73_PRATT_MILLER_ORECA-WGI-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -888,7 +888,7 @@
         "manufacturer": "Oreca",
         "team": "Riley Motorsports",
         "image": "/25_WT_P2_74_RILEY_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -906,7 +906,7 @@
         "manufacturer": "Oreca",
         "team": "TDS Racing",
         "image": "/25_WT_P2_11_TDS_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -924,7 +924,7 @@
         "manufacturer": "Oreca",
         "team": "Tower Motorsports",
         "image": "/25_WT_P2_8_TOWER_ORECA-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -942,7 +942,7 @@
         "manufacturer": "Oreca",
         "team": "United Autosports USA",
         "image": "/25_WT_P2_2_UNITED_ORECA_CTMP-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -960,7 +960,7 @@
         "manufacturer": "Oreca",
         "team": "United Autosports USA",
         "image": "/25_WT_P2_22_UNITED_ORECA_SEBRING-922x235.png",
-        "logo": "",
+        "logo": "/2024_Oreca_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1207,6 +1207,363 @@
         ]
       }
     ],
-    "GTD": []
+    "GTD": [
+      {
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "Af Corse",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["21"],
+        "drivers": [
+          "Alessandro PIER GUIDI",
+          "Simon MANN",
+          "Lilou Wadoux DUCELLIER",
+          "Kei COZZOLINO"
+        ]
+      },
+      {
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "AF CORSE",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["50"],
+        "drivers": [
+          "Riccardo AGOSTINI",
+          "Custodio TOLEDO",
+          "Arthur LECLERC",
+          "Conrad LAURSEN"
+        ]
+      },
+      {
+        "name": "Chevrolet Corvette Z06 GT3.R",
+        "manufacturer": "Chevrolet",
+        "team": "AWA",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["13"],
+        "drivers": [
+          "Lars KERN",
+          "Orey FINADI",
+          "Matthew BELL",
+          "Marvin KIRCHHOFER"
+        ]
+      },
+      {
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "Cetilar Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["47"],
+        "drivers": [
+          "Roberto LACORTE",
+          "Antonio FUOCO",
+          "Nicola LACORTE",
+          "Lorenzo PATRESE"
+        ]
+      },
+      {
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "Conquest Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["34"],
+        "drivers": [
+          "Daniel SERRA",
+          "Manny FRANCO",
+          "Cedric SBIRRAZZUOLI"
+        ]
+      },
+      {
+        "name": "Chevrolet Corvette Z06 GT3.R",
+        "manufacturer": "Chevrolet",
+        "team": "DXDT Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["36"],
+        "drivers": [
+          "Pipo DERANI",
+          "Charlie EASTWOOD",
+          "Salih YOLUC",
+          "Alec UDELL"
+        ]
+      },
+      {
+        "name": "Lamborghini Huracan GT3 EVO2",
+        "manufacturer": "Lamborghini",
+        "team": "Forte Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["78"],
+        "drivers": [
+          "Misha GOIKHBERG",
+          "Mario FARNBACHER",
+          "Franck PERERA",
+          "Parker KLIGERMAN"
+        ]
+      },
+      {
+        "name": "Ford Mustang GT3",
+        "manufacturer": "Ford",
+        "team": "Gradient Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["66"],
+        "drivers": [
+          "Joey HAND",
+          "Harry TINCKNELL",
+          "Tati CALDERON",
+          "Till BECHTOLSHEIMER"
+        ]
+      },
+      {
+        "name": "Aston Martin Vantage GT3 EVO",
+        "manufacturer": "Aston Martin",
+        "team": "Heart of Racing Team",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": ["27"],
+        "drivers": [
+          "Zacharie ROBICHON",
+          "Tom GAMBLE",
+          "Casper STEVENSON",
+          "Mattia DRUDI"
+        ]
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "Inception Racing",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      },
+      {
+        "name": "",
+        "manufacturer": "",
+        "team": "",
+        "image": "",
+        "logo": "",
+        "country": {
+          "name": "United States",
+          "abr": "USA"
+        },
+        "carNumbers": [],
+        "drivers": []
+      }
+    ]
   }
 }
