@@ -19,8 +19,6 @@ interface TeamInfo {
 ---
 
 
-
-<!-- TODO - CONSERTAR CAROSSEL -->
 <div class="content">
 
   <div class="carousel">
@@ -60,9 +58,6 @@ interface TeamInfo {
   </div>
 </div>
 
-<!-- TODO - ADICIONAR MAIS INFORMAÇÕES -->
-
-
 <script is:inline define:vars={{ category }}>
 
   let currentIndex = 0;
@@ -74,7 +69,7 @@ interface TeamInfo {
 
   const country = document.getElementById("carousel-country");
 
-  const drivers = document.getElementById("drivers-list");
+  const drivers = document.getElementsByClassName("drivers-list")[0];
 
 
   document.getElementsByClassName("next")[0].onclick = () => {
@@ -85,16 +80,13 @@ interface TeamInfo {
 		logo.src = category[currentIndex].logo;
 
     country.textContent = category[currentIndex].country.name + " - " + category[currentIndex].country.abr
-
-
-    // TODO - DRIVERS NÃO FUNCIONANDO
     
-    // drivers.innerHTML = "";
-    // category[currentIndex].drivers.forEach((driver) => {
-    //   const li = document.createElement("li");
-    //   li.textContent = driver;
-    //   drivers.appendChild(li);
-    // });
+    drivers.innerHTML = "";
+    category[currentIndex].drivers.forEach((driver) => {
+      const li = document.createElement("li");
+      li.textContent = driver;
+      drivers.appendChild(li);
+    });
   };
 
   document.getElementsByClassName("prev")[0].onclick = () => {
@@ -105,128 +97,188 @@ interface TeamInfo {
 		logo.src = category[currentIndex].logo;
 
     country.textContent = category[currentIndex].country.name + " - " + category[currentIndex].country.abr
+
+    drivers.innerHTML = "";
+    category[currentIndex].drivers.forEach((driver) => {
+      const li = document.createElement("li");
+      li.textContent = driver;
+      drivers.appendChild(li);
+    });
   };
 
 </script>
 
 
 
-<style>
+<style is:global>
+.carousel {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 40px auto;
+  height: 500px;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .carousel {
-    width: 100vw;
-    max-width: 1200px;
-    margin: 40px auto;
-    height: 500px;
-    position: relative;
-    border-radius: 24px;
-    overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
-    background: linear-gradient(135deg, #232526 0%, #414345 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.carousel ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .carousel ul {
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(.4,0,.2,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
-  .slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: opacity 0.5s cubic-bezier(.4,0,.2,1);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+}
 
-  .slide[data-active] {
-    opacity: 1;
-    z-index: 1;
-  }
+.slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 24px;
+  filter: brightness(0.85) saturate(1.1);
+  transition: filter 0.3s;
+}
 
-  .slide > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    border-radius: 24px;
-    filter: brightness(0.85) saturate(1.1);
-    transition: filter 0.3s;
-  }
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
 
-	.title-container {
-		display: flex;
-		justify-content: space-between;
-    height: 60px;
-    align-items: center;
-	}
+.title-container img {
+  width: 100px;
+  object-fit: contain;
+}
 
-  .title-container img {
-		width: 100px;
-    object-fit: contain;
-  }
+.info {
+  margin: 32px auto 0 auto;
+  max-width: 600px;
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  padding: 28px 32px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
 
-  .carousel-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 32px 32px 24px 32px;
-    background: linear-gradient(0deg, rgba(30,30,30,0.85) 80%, rgba(30,30,30,0.0) 100%);
-    color: #fff;
-    border-radius: 0 0 24px 24px;
-    box-sizing: border-box;
-  }
+.info h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  letter-spacing: 1px;
+  color: #ff3c3c;
+}
 
-  .carousel-info h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin: 0 0 8px 0;
-    letter-spacing: 1px;
-  }
+.info h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 6px 0;
+  color: #fff;
+  opacity: 0.85;
+}
 
-  .carousel-info p {
-    font-size: 1.1rem;
-    margin: 0;
-    opacity: 0.85;
-  }
+.drivers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-  .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(40,40,40,0.7);
-    border: none;
-    color: #fff;
-    font-size: 2.2rem;
-    padding: 0.5em 0.9em;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 2;
-    transition: background 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  }
+.drivers-list li {
+  background: rgba(255,60,60,0.12);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(255,60,60,0.08);
+  transition: background 0.2s;
+}
 
-  .carousel-btn:hover {
-    background: #ff3c3c;
-    color: #fff;
-    box-shadow: 0 4px 16px rgba(255,60,60,0.18);
-  }
+.drivers-list li:hover {
+  background: #ff3c3c;
+  color: #fff;
+}
 
-  .carousel-btn.prev {
-    left: 10px;
-  }
+.carousel-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 32px 32px 24px 32px;
+  background: linear-gradient(0deg, rgba(30,30,30,0.85) 80%, rgba(30,30,30,0.0) 100%);
+  color: #fff;
+  border-radius: 0 0 24px 24px;
+  box-sizing: border-box;
+}
 
-  .carousel-btn.next {
-    right: 10px;
-  }
+.carousel-info h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  letter-spacing: 1px;
+}
+
+.carousel-info p {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(40,40,40,0.7);
+  border: none;
+  color: #fff;
+  font-size: 2.2rem;
+  padding: 0.5em 0.9em;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.carousel-btn:hover {
+  background: #ff3c3c;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(255,60,60,0.18);
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
 
   @media (max-width: 700px) {
     .carousel {
@@ -243,7 +295,22 @@ interface TeamInfo {
       left: 8px;
       right: 8px;
     }
+    .info {
+      padding: 16px 10px;
+      border-radius: 10px;
+      gap: 10px;
+    }
+    .info h2 {
+      font-size: 1.1rem;
+    }
+    .info h3 {
+      font-size: 1rem;
+    }
+    .drivers-list li {
+      font-size: 0.95rem;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
   }
-
 
 </style>

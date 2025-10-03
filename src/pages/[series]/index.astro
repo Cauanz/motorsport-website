@@ -22,24 +22,22 @@ const selected: string[] = teams[series]?.[curCategory];
 
 ---
 
-<!-- TODO - ADICIONAR GTD NO JSON -->
-
 <Layout>
 	<nav>
 		{categories.map(category => (
 			<a href={`/${series}?cat=${category}`} class={category === curCategory ? "active" : ""}>{category}</a>
 		))}
 		{series === 'wec' ? (
-			<a href={`/wec-tracks`}>Tracks</a>
 			<a href={`/wec-results`}>Results</a>
 		) : (
-			<a href={`/imsa-tracks`}>Tracks</a>
 			<a href={`/imsa-results`}>Results</a>
 		)}
 	</nav>
 
 	<div class="main">
-		<h1 class="title">{series === "wec" ? "World Endurance Championship" : "IMSA"}</h1>
+		<div class="top">
+			<img class="logo" src={series === "wec" ? "/public/logo-wec-blanc-67f5358fb1290246319245.png" : "/public/2023_IMSA_Logo_639x240.png"} alt="logo" srcset="">
+		</div>
 
 
 	<main>
@@ -72,6 +70,16 @@ const selected: string[] = teams[series]?.[curCategory];
 	.title {
 		font-weight: bold;
 		text-align: center;
+	}
+
+	.logo {
+		width: 300px;
+	}
+
+	.top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	nav {

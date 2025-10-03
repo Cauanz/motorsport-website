@@ -535,7 +535,8 @@
         "carNumbers": ["92"],
         "drivers": ["Ryan HARDWICK", "Riccardo PERA", "Richard LIETZ"]
       }
-    ]
+    ],
+    "tracks": []
   },
 
   "imsa": {
@@ -1291,11 +1292,7 @@
           "abr": "USA"
         },
         "carNumbers": ["34"],
-        "drivers": [
-          "Daniel SERRA",
-          "Manny FRANCO",
-          "Cedric SBIRRAZZUOLI"
-        ]
+        "drivers": ["Daniel SERRA", "Manny FRANCO", "Cedric SBIRRAZZUOLI"]
       },
       {
         "name": "Chevrolet Corvette Z06 GT3.R",
@@ -1370,8 +1367,8 @@
         ]
       },
       {
-        "name": "",
-        "manufacturer": "",
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
         "team": "Inception Racing",
         "image": "",
         "logo": "",
@@ -1379,191 +1376,218 @@
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["70"],
+        "drivers": [
+          "Ollie MILLROY",
+          "Frederik SCHANDORFF",
+          "Brendan IRIBE",
+          "David FUMANELLI"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Porsche 911 GT3 R (992)",
+        "manufacturer": "Porsche",
+        "team": "Iron Dames",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["83"],
+        "drivers": [
+          "Sarah BOVY",
+          "Rahel FREY",
+          "Michelle GATTING",
+          "Karen GAILLARD"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Mercedes-AMG GT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "Korthoff Competition Motors",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["32"],
+        "drivers": [
+          "Daniel MORAD",
+          "Kenton KOCH",
+          "Maximilian GOETZ",
+          "Seth LUCAS"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Mercedes-AMG GT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "Lone Star Racing",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["80"],
+        "drivers": ["Scott ANDREWS", "Eric FILGUEIRAS", "Dan KNOX", "Ralf ARON"]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Aston Martin Vantage GT3 EVO",
+        "manufacturer": "Aston Martin",
+        "team": "Magnus Racing",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["44"],
+        "drivers": [
+          "Andy LALLY",
+          "Spencer PUMPELLY",
+          "John POTTER",
+          "Nicki THIIM"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "Triarsi Competizione",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["021"],
+        "drivers": [
+          "James CALADO",
+          "Mike SKEEN",
+          "Stevan MCALEER",
+          "Sheena MONK"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Ferrari 296 GT3",
+        "manufacturer": "Ferrari",
+        "team": "Triarsi Competizione",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["023"],
+        "drivers": [
+          "Alessio ROVERA",
+          "Onofrio TRIARSI",
+          "Charles SCARDINA",
+          "Eddie CHEEVER"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "BMW M M4 GT3",
+        "manufacturer": "BMW",
+        "team": "Turner Motorsport",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["96"],
+        "drivers": [
+          "Robby FOLEY",
+          "Jens KLINGMANN",
+          "Patrick GALLAGHER",
+          "Jake WALKER"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Aston Martin Vantage GT3 EVO",
+        "manufacturer": "Aston Martin",
+        "team": "VAN DER STEUR RACING",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["19"],
+        "drivers": [
+          "Valentin HASSE CLOT",
+          "Maxime ROBIN",
+          "Rory VAN DER STEUR",
+          "Anthony MCINTOSH"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Lexus RC F GT3",
+        "manufacturer": "Lexus",
+        "team": "Vasser Sullivan",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["12"],
+        "drivers": ["Jack HAWKSWORTH", "Frankie MONTECALVO", "Parker THOMPSON"]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Lamborghini Huracan GT3 EVO2",
+        "manufacturer": "Lamborghini",
+        "team": "Wayne Taylor Racing",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["45"],
+        "drivers": [
+          "Trent HINDMAN",
+          "Kyle MARCELLI",
+          "Danny FORMAL",
+          "Graham DOYLE"
+        ]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Mercedes-AMG GT3",
+        "manufacturer": "Mercedes-Benz",
+        "team": "Winward Racing",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["57"],
+        "drivers": ["Russell WARD", "Philip ELLIS", "Indy DONTJE", "Lucas AUER"]
       },
       {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
+        "name": "Porsche 911 GT3 R (992)",
+        "manufacturer": "Porsche",
+        "team": "Wright Motorsports",
         "image": "",
         "logo": "",
         "country": {
           "name": "United States",
           "abr": "USA"
         },
-        "carNumbers": [],
-        "drivers": []
-      },
-      {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
-        "image": "",
-        "logo": "",
-        "country": {
-          "name": "United States",
-          "abr": "USA"
-        },
-        "carNumbers": [],
-        "drivers": []
-      },
-      {
-        "name": "",
-        "manufacturer": "",
-        "team": "",
-        "image": "",
-        "logo": "",
-        "country": {
-          "name": "United States",
-          "abr": "USA"
-        },
-        "carNumbers": [],
-        "drivers": []
+        "carNumbers": ["120"],
+        "drivers": [
+          "Frederic MAKOWIECKI",
+          "Jan HEYLEN",
+          "Elliott SKEER",
+          "Adam ADELSON",
+          "Tom SARGENT",
+          "Ayhancan GUVEN"
+        ]
       }
-    ]
+    ],
+    "tracks": []
   }
 }
