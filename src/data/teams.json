@@ -536,7 +536,80 @@
         "drivers": ["Ryan HARDWICK", "Riccardo PERA", "Richard LIETZ"]
       }
     ],
-    "tracks": []
+    "tracks": [
+      {
+        "country": "Qatar",
+        "name-track": "Qatar",
+        "name-race": "Qatar 1812km",
+        "length-km": "1812km",
+        "length-mi": "1.12mi",
+        "image": "",
+        "date": ["26/03", "29/03"]
+      },
+      {
+        "country": "Italy",
+        "name-track": "Imola",
+        "name-race": "6 hours of Imola",
+        "length-km": "4.9km",
+        "length-mi": "3mi",
+        "image": "",
+        "date": ["18/04", "20/04"]
+      },
+      {
+        "country": "Belgium",
+        "name-track": "Spa-Francorchamps",
+        "name-race": "6 hours of Spa-Francorchamps",
+        "length-km": "7.004km",
+        "length-mi": "4.35mi",
+        "image": "",
+        "date": ["08/05", "10/05"]
+      },
+      {
+        "country": "France",
+        "name-track": "Le Mans",
+        "name-race": "24 hours of Le Mans",
+        "length-km": "13.626km",
+        "length-mi": "8.46mi",
+        "image": "",
+        "date": ["11/06", "15/06"]
+      },
+      {
+        "country": "Brazil",
+        "name-track": "Autódromo de Interlagos",
+        "name-race": "6 hours of São Paulo",
+        "length-km": "4.309km",
+        "length-mi": "2.67mi",
+        "image": "",
+        "date": ["11/07", "13/07"]
+      },
+      {
+        "country": "USA",
+        "name-track": "COTA",
+        "name-race": "Lone Star Le Mans",
+        "length-km": "5.513km",
+        "length-mi": "3.42mi",
+        "image": "",
+        "date": ["05/09", "07/09"]
+      },
+      {
+        "country": "Japan",
+        "name-track": "Fuji Speedway",
+        "name-race": "6 hours of Fuji",
+        "length-km": "4.563km",
+        "length-mi": "2.83mi",
+        "image": "",
+        "date": ["26/09", "28/09"]
+      },
+      {
+        "country": "Bahrain",
+        "name-track": "Bahrain",
+        "name-race": "8 hours of Bahrain",
+        "length-km": "5.412km",
+        "length-mi": "3.36mi",
+        "image": "",
+        "date": ["06/11", "08/11"]
+      }
+    ]
   },
 
   "imsa": {
@@ -582,7 +655,7 @@
         "manufacturer": "Aston Martin",
         "team": "Aston Martin THOR Team",
         "image": "/25_WT_GTP_23_AMR_THOR_ASTON_MARTIN_VALKYRIE-922x235.png",
-        "logo": "/public/aston_067ffd.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -613,7 +686,7 @@
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
         "image": "/25_WT_GTP_24_RLL_BMW_M_hybrid_SEBRING-922x235.png",
-        "logo": "/public/bmw_7ffdd7.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -631,7 +704,7 @@
         "manufacturer": "BMW",
         "team": "BMW M Team RLL",
         "image": "/25_WT_GTP_25_RLL_BMW_M_hybrid_SEBRING-922x235.png",
-        "logo": "/public/bmw_7ffdd7.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -649,7 +722,7 @@
         "manufacturer": "Cadillac",
         "team": "Cadillac Wayne Taylor Racing",
         "image": "/25_WT_GTP_10_WTR_CADILLAC_V_LMDH-922x235.png",
-        "logo": "/public/cadillac_51067f.png",
+        "logo": "/cadillac_51067f.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -698,7 +771,7 @@
         "manufacturer": "Porsche",
         "team": "JDC-Miller MotorSports",
         "image": "/25_WT_GTP_85_JDC_MILLER_PORSCHE_963-922x235.png",
-        "logo": "/public/porsche_67ffdf.png",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"

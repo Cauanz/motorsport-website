@@ -27,16 +27,12 @@ const selected: string[] = teams[series]?.[curCategory];
 		{categories.map(category => (
 			<a href={`/${series}?cat=${category}`} class={category === curCategory ? "active" : ""}>{category}</a>
 		))}
-		{series === 'wec' ? (
-			<a href={`/wec-results`}>Results</a>
-		) : (
-			<a href={`/imsa-results`}>Results</a>
-		)}
+			<a href={`/${series}/results`}>Results</a>
 	</nav>
 
 	<div class="main">
 		<div class="top">
-			<img class="logo" src={series === "wec" ? "/public/logo-wec-blanc-67f5358fb1290246319245.png" : "/public/2023_IMSA_Logo_639x240.png"} alt="logo" srcset="">
+			<img class="logo" src={series === "wec" ? "/logo-wec-blanc-67f5358fb1290246319245.png" : "/2023_IMSA_Logo_639x240.png"} alt="logo" srcset="">
 		</div>
 
 
@@ -52,8 +48,6 @@ const selected: string[] = teams[series]?.[curCategory];
 			)) }
 			</div> -->
 	</main>
-	
-	
 	
 	</div>
 
@@ -104,6 +98,11 @@ const selected: string[] = teams[series]?.[curCategory];
 
 	.active {
 		background: #e67e07;
+	}
+
+	.disabled {
+		background: #333;
+		color: #757575;
 	}
 
 </style>

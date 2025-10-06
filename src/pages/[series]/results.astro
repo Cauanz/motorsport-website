@@ -1,0 +1,23 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../layouts/Layout.astro';
+
+export const prerender = false;
+
+
+export const getStaticPaths = (() => {
+	return [
+		{ params: {series: "wec"}},
+		{ params: {series: "imsa"}},
+	];
+}) satisfies GetStaticPaths;
+
+const { series } = Astro.params as { series: "wec" | "imsa" };
+---
+
+
+<Layout>
+
+  <h1>{series} Results</h1>
+
+</Layout>
