@@ -3,8 +3,10 @@ export const prerender = false
 import type { GetStaticPaths } from "astro";
 import Layout from '../../layouts/Layout.astro';
 import teams from "../../data/teams.json";
-import CardTeam from "../../components/CardTeam.astro";
+// import CardTeam from "../../components/CardTeam.astro";
 import ImageCarousel from "../../components/ImageCarousel.astro";
+import CardTrack from "../../components/CardTrack.astro";
+import { sequence } from "astro:middleware";
 
 export const getStaticPaths = (() => {
 	return [
@@ -18,8 +20,9 @@ const { series } = Astro.params as { series: "wec" | "imsa" };
 const categories = Object.keys(teams[series]) as Array<keyof typeof teams[typeof series]>;
 const curCategory = (Astro.url.searchParams.get("cat") as keyof typeof teams[typeof series]) ?? categories[0];
 
-const selected: string[] = teams[series]?.[curCategory];
+const selected = teams[series]?.[curCategory];
 
+console.log(selected)
 ---
 
 <Layout>
@@ -39,7 +42,11 @@ const selected: string[] = teams[series]?.[curCategory];
 	<main>
 
 		<div class="carousel-container">
-			<ImageCarousel category={selected} />
+			{curCategory === "tracks" ? (
+				<CardTrack tracks={selected} />
+			) : (
+				<ImageCarousel category={selected} />
+			)}
 		</div>
 
 		<!-- <div class="card-container">

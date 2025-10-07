@@ -1,0 +1,276 @@
+---
+const { tracks } = Astro.props;
+
+interface TrackInfo {
+  country: string,
+  nameTrack: string,
+  nameRace: string,
+  length_km: string,
+  length_mi: string,
+  image: string,
+  date: string[]
+}
+---
+
+<!-- TODO - TERMINAR DE REAJUSTAR ESTILO -->
+
+<div class="content">
+
+  <div class="carousel-track">
+    
+    <ul>
+      <li class="slide" data-active>
+        <img id="carousel-track-img" src={tracks[0].image} alt={tracks[0].name} />
+      </li>
+    </ul>
+    
+  </div>
+  <button class="carousel-track-btn prev" aria-label="Anterior">
+    &#8592;
+  </button>
+  <button class="carousel-track-btn next" aria-label="Próximo">
+    &#8594;
+  </button>
+
+  
+  <div class="carousel-track-info">
+    <span class="title-container">
+      <h2 id="carousel-track-title">{tracks[0].nameTrack}</h2>
+      <h2 id="carousel-track-country">{tracks[0].country}</h2>
+    </span>
+    <p id="carousel-track-desc">{tracks[0].nameRace}</p>
+  </div>
+
+  <!-- <div class="info">
+
+    <h3>Pilotos</h3>
+    <ul class="drivers-list">
+      {tracks[0].drivers.map((name: string) => (
+        <li>{name}</li>
+      ))}
+    </ul>
+  </div> -->
+</div>
+
+<script define:vars={{ tracks }}>
+
+  let currentIndex = 0;
+
+  const img = document.getElementById("carousel-track-img");
+  const title = document.getElementById("carousel-track-title");
+  const desc = document.getElementById("carousel-track-desc");
+
+  const country = document.getElementById("carousel-track-country");
+
+  const nextImage = () => {
+    currentIndex = (currentIndex + 1) % tracks.length;
+    img.src = tracks[currentIndex].image;
+    title.textContent = tracks[currentIndex].nameTrack;
+    desc.textContent = tracks[currentIndex].nameRace;
+
+    country.textContent = tracks[currentIndex].country
+  }
+
+  const previousImage = () => {
+    currentIndex = (currentIndex - 1 + tracks.length) % tracks.length;
+    img.src = tracks[currentIndex].image;
+    title.textContent = tracks[currentIndex].nameTrack;
+    desc.textContent = tracks[currentIndex].nameRace;
+
+    country.textContent = tracks[currentIndex].country
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft") {
+      previousImage()
+    } else if (e.key === "ArrowRight") {
+      nextImage()
+    }
+  })
+
+  document.getElementsByClassName("next")[0].onclick = () => {
+    nextImage()
+  };
+
+  document.getElementsByClassName("prev")[0].onclick = () => {
+    previousImage()
+  };
+
+</script>
+
+
+
+<style is:global>
+.carousel-track {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 40px auto;
+  height: 700px;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-track ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(.4,0,.2,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+}
+
+.slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 24px;
+  filter: brightness(0.85) saturate(1.1);
+  transition: filter 0.3s;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.title-container img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.info {
+  margin: 32px auto 0 auto;
+  max-width: 600px;
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  padding: 28px 32px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.info h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  letter-spacing: 1px;
+  color: #ff3c3c;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 6px 0;
+  color: #fff;
+  opacity: 0.85;
+}
+
+.carousel-track-info {
+  padding: 32px 32px 24px 32px;
+  color: #fff;
+  border-radius: 0 0 24px 24px;
+  box-sizing: border-box;
+}
+
+.carousel-track-info h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  letter-spacing: 1px;
+}
+
+.carousel-track-info p {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.carousel-track-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(40,40,40,0.7);
+  border: none;
+  color: #fff;
+  font-size: 2.2rem;
+  padding: 0.5em 0.9em;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.carousel-track-btn:hover {
+  background: #ff3c3c;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(255,60,60,0.18);
+}
+
+.carousel-track-btn.prev {
+  left: 10px;
+}
+
+.carousel-track-btn.next {
+  right: 10px;
+}
+
+  @media (max-width: 700px) {
+    .carousel-track {
+      height: 320px;
+      max-width: 98vw;
+      border-radius: 16px;
+    }
+    .carousel-track-info {
+      padding: 18px 16px 12px 16px;
+      border-radius: 0 0 16px 16px;
+    }
+    .carousel-track-btn {
+      font-size: 1.5rem;
+      left: 8px;
+      right: 8px;
+    }
+    .info {
+      padding: 16px 10px;
+      border-radius: 10px;
+      gap: 10px;
+    }
+    .info h2 {
+      font-size: 1.1rem;
+    }
+    .info h3 {
+      font-size: 1rem;
+    }
+    .drivers-list li {
+      font-size: 0.95rem;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+  }
+
+</style>

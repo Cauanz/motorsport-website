@@ -71,8 +71,7 @@ interface TeamInfo {
 
   const drivers = document.getElementsByClassName("drivers-list")[0];
 
-
-  document.getElementsByClassName("next")[0].onclick = () => {
+  const nextImage = () => {
     currentIndex = (currentIndex + 1) % category.length;
     img.src = category[currentIndex].image;
     title.textContent = category[currentIndex].name + " - " + category[currentIndex].carNumbers;
@@ -87,9 +86,9 @@ interface TeamInfo {
       li.textContent = driver;
       drivers.appendChild(li);
     });
-  };
+  }
 
-  document.getElementsByClassName("prev")[0].onclick = () => {
+  const previousImage = () => {
     currentIndex = (currentIndex - 1 + category.length) % category.length;
     img.src = category[currentIndex].image;
     title.textContent = category[currentIndex].name + " - " + category[currentIndex].carNumbers;
@@ -104,6 +103,22 @@ interface TeamInfo {
       li.textContent = driver;
       drivers.appendChild(li);
     });
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft") {
+      previousImage()
+    } else if (e.key === "ArrowRight") {
+      nextImage()
+    }
+  })
+
+  document.getElementsByClassName("next")[0].onclick = () => {
+    nextImage()
+  };
+
+  document.getElementsByClassName("prev")[0].onclick = () => {
+    previousImage()
   };
 
 </script>
