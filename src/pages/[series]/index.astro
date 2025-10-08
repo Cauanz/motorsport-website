@@ -22,7 +22,7 @@ const curCategory = (Astro.url.searchParams.get("cat") as keyof typeof teams[typ
 
 const selected = teams[series]?.[curCategory];
 
-console.log(selected)
+// TODO - ADICIONAR TRACKS DA IMSA
 ---
 
 <Layout>
@@ -48,12 +48,6 @@ console.log(selected)
 				<ImageCarousel category={selected} />
 			)}
 		</div>
-
-		<!-- <div class="card-container">
-			{selected.map((team: string) => (
-				<CardTeam team={team} />
-			)) }
-			</div> -->
 	</main>
 	
 	</div>

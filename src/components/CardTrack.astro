@@ -1,25 +1,13 @@
 ---
 const { tracks } = Astro.props;
-
-interface TrackInfo {
-  country: string,
-  nameTrack: string,
-  nameRace: string,
-  length_km: string,
-  length_mi: string,
-  image: string,
-  date: string[]
-}
 ---
-
-<!-- TODO - TERMINAR DE REAJUSTAR ESTILO -->
 
 <div class="content">
 
   <div class="carousel-track">
     
     <ul>
-      <li class="slide" data-active>
+      <li class="track-slide" data-active>
         <img id="carousel-track-img" src={tracks[0].image} alt={tracks[0].name} />
       </li>
     </ul>
@@ -34,22 +22,14 @@ interface TrackInfo {
 
   
   <div class="carousel-track-info">
-    <span class="title-container">
+    <span class="track-title-container">
       <h2 id="carousel-track-title">{tracks[0].nameTrack}</h2>
       <h2 id="carousel-track-country">{tracks[0].country}</h2>
     </span>
     <p id="carousel-track-desc">{tracks[0].nameRace}</p>
+    <p id="length">Length: {tracks[0].length_km} | {tracks[0].length_mi}</p>
+    <p id="date">Date: {tracks[0].date[0]} - {tracks[0].date[1]}</p>
   </div>
-
-  <!-- <div class="info">
-
-    <h3>Pilotos</h3>
-    <ul class="drivers-list">
-      {tracks[0].drivers.map((name: string) => (
-        <li>{name}</li>
-      ))}
-    </ul>
-  </div> -->
 </div>
 
 <script define:vars={{ tracks }}>
@@ -59,6 +39,8 @@ interface TrackInfo {
   const img = document.getElementById("carousel-track-img");
   const title = document.getElementById("carousel-track-title");
   const desc = document.getElementById("carousel-track-desc");
+  const length = document.getElementById("length");
+  const date = document.getElementById("date");
 
   const country = document.getElementById("carousel-track-country");
 
@@ -67,6 +49,8 @@ interface TrackInfo {
     img.src = tracks[currentIndex].image;
     title.textContent = tracks[currentIndex].nameTrack;
     desc.textContent = tracks[currentIndex].nameRace;
+    length.textContent = "Length: " + tracks[currentIndex].length_km + " | " + tracks[currentIndex].length_mi;
+    date.textContent = "Date: " + tracks[currentIndex].date[0] + " - " + tracks[currentIndex].date[1];
 
     country.textContent = tracks[currentIndex].country
   }
@@ -101,15 +85,16 @@ interface TrackInfo {
 
 
 <style is:global>
+
 .carousel-track {
   width: 100vw;
-  max-width: 1200px;
-  margin: 40px auto;
-  height: 700px;
+  max-width: 1100px;
+  margin: 32px auto;
+  height: 520px;
   position: relative;
-  border-radius: 24px;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
   background: linear-gradient(135deg, #232526 0%, #414345 100%);
   display: flex;
   align-items: center;
@@ -124,7 +109,7 @@ interface TrackInfo {
   padding: 0;
 }
 
-.slide {
+.track-slide {
   position: absolute;
   inset: 0;
   opacity: 0;
@@ -134,80 +119,55 @@ interface TrackInfo {
   justify-content: flex-end;
 }
 
-.slide[data-active] {
+.track-slide[data-active] {
   opacity: 1;
   z-index: 1;
 }
 
-.slide > img {
+.track-slide > img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  border-radius: 24px;
-  filter: brightness(0.85) saturate(1.1);
+  border-radius: 20px;
+  filter: brightness(0.88) saturate(1.08);
   transition: filter 0.3s;
 }
 
-.title-container {
+.track-title-container {
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  height: 48px;
   align-items: center;
+  gap: 16px;
 }
 
-.title-container img {
-  width: 100px;
+.track-title-container img {
+  width: 80px;
   object-fit: contain;
 }
 
-.info {
-  margin: 32px auto 0 auto;
-  max-width: 600px;
-  background: linear-gradient(90deg, #232526 0%, #414345 100%);
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  padding: 28px 32px;
+.carousel-track-info {
+  padding: 24px 28px 18px 28px;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+  box-sizing: border-box;
+  background: rgba(35,37,38,0.85);
+  margin-top: -8px;
 }
 
-.info h2 {
+.carousel-track-info h2 {
   font-size: 1.6rem;
-  font-weight: 600;
-  margin: 0 0 8px 0;
+  font-weight: 700;
+  margin: 0 0 6px 0;
   letter-spacing: 1px;
   color: #ff3c3c;
 }
 
-.info h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin: 0 0 6px 0;
-  color: #fff;
-  opacity: 0.85;
-}
-
-.carousel-track-info {
-  padding: 32px 32px 24px 32px;
-  color: #fff;
-  border-radius: 0 0 24px 24px;
-  box-sizing: border-box;
-}
-
-.carousel-track-info h2 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin: 0 0 8px 0;
-  letter-spacing: 1px;
-}
-
 .carousel-track-info p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0;
   opacity: 0.85;
+  margin-bottom: 4px;
 }
 
 .carousel-track-btn {
@@ -217,8 +177,8 @@ interface TrackInfo {
   background: rgba(40,40,40,0.7);
   border: none;
   color: #fff;
-  font-size: 2.2rem;
-  padding: 0.5em 0.9em;
+  font-size: 2rem;
+  padding: 0.4em 0.8em;
   border-radius: 50%;
   cursor: pointer;
   z-index: 2;
@@ -233,44 +193,39 @@ interface TrackInfo {
 }
 
 .carousel-track-btn.prev {
-  left: 10px;
+  left: 12px;
 }
 
 .carousel-track-btn.next {
-  right: 10px;
+  right: 12px;
 }
 
-  @media (max-width: 700px) {
-    .carousel-track {
-      height: 320px;
-      max-width: 98vw;
-      border-radius: 16px;
-    }
-    .carousel-track-info {
-      padding: 18px 16px 12px 16px;
-      border-radius: 0 0 16px 16px;
-    }
-    .carousel-track-btn {
-      font-size: 1.5rem;
-      left: 8px;
-      right: 8px;
-    }
-    .info {
-      padding: 16px 10px;
-      border-radius: 10px;
-      gap: 10px;
-    }
-    .info h2 {
-      font-size: 1.1rem;
-    }
-    .info h3 {
-      font-size: 1rem;
-    }
-    .drivers-list li {
-      font-size: 0.95rem;
-      padding: 6px 10px;
-      border-radius: 6px;
-    }
+@media (max-width: 700px) {
+  .carousel-track {
+    height: 240px;
+    max-width: 98vw;
+    border-radius: 12px;
   }
-
+  .carousel-track-info {
+    padding: 12px 8px 8px 8px;
+    border-radius: 0 0 12px 12px;
+    font-size: 0.95rem;
+  }
+  .carousel-track-info h2 {
+    font-size: 1.1rem;
+  }
+  .carousel-track-btn {
+    font-size: 1.2rem;
+    left: 6px;
+    right: 6px;
+    padding: 0.3em 0.6em;
+  }
+  .track-title-container {
+    height: 32px;
+    gap: 8px;
+  }
+  .track-title-container img {
+    width: 48px;
+  }
+}
 </style>

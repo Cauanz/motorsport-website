@@ -541,7 +541,7 @@
         "country": "Qatar",
         "nameTrack": "Qatar",
         "nameRace": "Qatar 1812km",
-        "length_km": "1812km",
+        "length_km": "5.38km",
         "length_mi": "1.12mi",
         "image": "/2024-tracks-rvb-qatar-b_94f2c2.png",
         "date": ["26/03", "29/03"]
@@ -1054,7 +1054,7 @@
         "manufacturer": "Mercedes-Benz",
         "team": "75 Express",
         "image": "/25_WT_GTDPRO_75_SUNENERGY1_MERCEDES-922x235.png",
-        "logo": "",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1072,7 +1072,7 @@
         "manufacturer": "Porsche",
         "team": "AO Racing",
         "image": "/25_WT_GTDPRO_77_AO_PORSCHE_992_GT3R-922x235.png",
-        "logo": "",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1085,7 +1085,7 @@
         "manufacturer": "Chevrolet",
         "team": "Corvette Racing by Pratt Miller Motorsports",
         "image": "/25_WT_GTDPRO_3_PRATTMILLER_CORVETTE_GT3-922x235.png",
-        "logo": "",
+        "logo": "/2025_Chevrolet_NewLogo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1098,7 +1098,7 @@
         "manufacturer": "Chevrolet",
         "team": "Corvette Racing by Pratt Miller Motorsports",
         "image": "/25_WT_GTDPRO_4_PRATTMILLER_CORVETTE_GT3-922x235.png",
-        "logo": "",
+        "logo": "/2025_Chevrolet_NewLogo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1111,7 +1111,7 @@
         "manufacturer": "Ferrari",
         "team": "DragonSpeed",
         "image": "/25_WT_GTDPRO_81_DRAGONSPEED_FERRARI_296_GT3_WGI-922x235.png",
-        "logo": "",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1130,7 +1130,7 @@
         "manufacturer": "Ford",
         "team": "Ford Multimatic Motorsports",
         "image": "/25_WT_GTDPRO_64_MULTIMATIC_MUSTANG_GT3_VIR-922x235.png",
-        "logo": "",
+        "logo": "/ford_e3a755.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1143,7 +1143,7 @@
         "manufacturer": "Ford",
         "team": "Ford Multimatic Motorsports",
         "image": "/25_WT_GTDPRO_65_MULTIMATIC_MUSTANG_GT3_VIR-922x235.png",
-        "logo": "",
+        "logo": "/ford_e3a755.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1156,7 +1156,7 @@
         "manufacturer": "Mercedes-Benz",
         "team": "GetSpeed",
         "image": "/25_WT_GTDPRO_69_GETSPEED_MERC_AMG_GT3_EVO-922x235.png",
-        "logo": "",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1174,7 +1174,7 @@
         "manufacturer": "Aston Martin",
         "team": "Heart of Racing Team",
         "image": "/25_WT_GTDPRO_007_HEART_RACING_ASTON_VANTAGE_EVO_GT3_EVO-922x235.png",
-        "logo": "",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1187,7 +1187,7 @@
         "manufacturer": "BMW",
         "team": "Paul Miller Racing",
         "image": "/25_WT_GTDPRO_1_PAUL_MILLER_BMW_M4_GT3_EVO-922x235.png",
-        "logo": "",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1205,7 +1205,7 @@
         "manufacturer": "BMW",
         "team": "Paul Miller Racing",
         "image": "/25_WT_GTDPRO_48_PAUL_MILLER_BMW_M4_GT3_EVO-922x235.png",
-        "logo": "",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1218,7 +1218,7 @@
         "manufacturer": "Lamborghini",
         "team": "Pfaff Motorsports",
         "image": "/25_WT_GTDPRO_9_PFAFF_LAMBORGHINI_HURACAN_EVO2_INDY-922x235.png",
-        "logo": "",
+        "logo": "/2025_Lamborghini_Mfg_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1231,7 +1231,7 @@
         "manufacturer": "Porsche",
         "team": "Proton Competition",
         "image": "/25_WT_GTDPRO_20_PROTON_PORSCHE_992_GT3R-922x235.png",
-        "logo": "",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1249,7 +1249,7 @@
         "manufacturer": "Chevrolet",
         "team": "Trackhouse by TF Sport",
         "image": "/25_WT_GTDPRO_91_TFSPORT_CORVETTE_GT3-922x235.png",
-        "logo": "",
+        "logo": "/2025_Chevrolet_NewLogo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1267,7 +1267,7 @@
         "manufacturer": "Lexus",
         "team": "Vasser Sullivan",
         "image": "/25_WT_GTDPRO_14_VASSER_SULLY_LEXUS_RCF_GT3_WGI-922x235.png",
-        "logo": "",
+        "logo": "/lexus_7ffde5.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1286,8 +1286,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "Af Corse",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_21_AFCORSE_FERRARI_296_GT3-922x235.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1304,8 +1304,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "AF CORSE",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_50_AFCORSE_FERRARI_296_GT3-922x235.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1322,8 +1322,8 @@
         "name": "Chevrolet Corvette Z06 GT3.R",
         "manufacturer": "Chevrolet",
         "team": "AWA",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_13_AWA_CORVETTE_GT3-922x235.png",
+        "logo": "/2025_Chevrolet_NewLogo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1340,8 +1340,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "Cetilar Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD47_CETILAR_FERRARI_296_GT3-922x235.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1358,8 +1358,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "Conquest Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_34_CONQUEST_FERRARI_296_GT3_1-922x235.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1371,8 +1371,8 @@
         "name": "Chevrolet Corvette Z06 GT3.R",
         "manufacturer": "Chevrolet",
         "team": "DXDT Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_36_DXDT_CORVETTE_GT3_VIRon-922x235.png",
+        "logo": "/2025_Chevrolet_NewLogo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1389,8 +1389,8 @@
         "name": "Lamborghini Huracan GT3 EVO2",
         "manufacturer": "Lamborghini",
         "team": "Forte Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_78_Forte_LAMBORGHINI_HURACAN_EVO2_1-922x235.png",
+        "logo": "/2025_Lamborghini_Mfg_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1407,8 +1407,8 @@
         "name": "Ford Mustang GT3",
         "manufacturer": "Ford",
         "team": "Gradient Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_66_GRADIENT_MUSTANG_GT3_SPRINT-922x235.png",
+        "logo": "/ford_e3a755.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1425,8 +1425,8 @@
         "name": "Aston Martin Vantage GT3 EVO",
         "manufacturer": "Aston Martin",
         "team": "Heart of Racing Team",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_27_HEART_RACING_ASTON_VANTAGE_EVO_GT3_EVO-922x235.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1443,8 +1443,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "Inception Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_70_INCEPTION_FERRARI_296_GT3_SEBRING-922x235.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1461,8 +1461,8 @@
         "name": "Porsche 911 GT3 R (992)",
         "manufacturer": "Porsche",
         "team": "Iron Dames",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_83_IRONDAMES_PORSCHE_992_GT3R-922x235.png",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1479,8 +1479,8 @@
         "name": "Mercedes-AMG GT3",
         "manufacturer": "Mercedes-Benz",
         "team": "Korthoff Competition Motors",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_32_KORTHOFF_COMP_MERC_AMG_GT3_EVO-922x235.png",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1497,8 +1497,8 @@
         "name": "Mercedes-AMG GT3",
         "manufacturer": "Mercedes-Benz",
         "team": "Lone Star Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_80_LONESTAR_MERC_AMG_GT3_EVO-922x235.png",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1510,8 +1510,8 @@
         "name": "Aston Martin Vantage GT3 EVO",
         "manufacturer": "Aston Martin",
         "team": "Magnus Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_44_MAGNUS_ASTON_VANTAGE_EVO_GT3_EVO_WGI-922x235.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1528,8 +1528,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "Triarsi Competizione",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_021_TRIARSI_FERRARI_296_GT3_021_IMS-922x235.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1546,8 +1546,8 @@
         "name": "Ferrari 296 GT3",
         "manufacturer": "Ferrari",
         "team": "Triarsi Competizione",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_023_TRIARSI_FERRARI_296_GT3-922x263.png",
+        "logo": "/ferrari_bf0975.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1564,8 +1564,8 @@
         "name": "BMW M M4 GT3",
         "manufacturer": "BMW",
         "team": "Turner Motorsport",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_96_TURNER_BMW_M4_GT3_EVO_CTMP_on-922x235.png",
+        "logo": "/bmw_7ffdd7.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1582,8 +1582,8 @@
         "name": "Aston Martin Vantage GT3 EVO",
         "manufacturer": "Aston Martin",
         "team": "VAN DER STEUR RACING",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_19_VSR_ASTON_VANTAGE_EVO_GT3_EVO-922x235.png",
+        "logo": "/aston_067ffd.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1600,8 +1600,8 @@
         "name": "Lexus RC F GT3",
         "manufacturer": "Lexus",
         "team": "Vasser Sullivan",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_12_VASSER_SULLY_LEXUS_RCF_GT3_WGI-922x235.png",
+        "logo": "/lexus_7ffde5.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1613,8 +1613,8 @@
         "name": "Lamborghini Huracan GT3 EVO2",
         "manufacturer": "Lamborghini",
         "team": "Wayne Taylor Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_45_WTR_LAMBORGHINI_HURACAN_EVO2_RAm_On-922x235.png",
+        "logo": "/2025_Lamborghini_Mfg_Logo_282x188.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1631,8 +1631,8 @@
         "name": "Mercedes-AMG GT3",
         "manufacturer": "Mercedes-Benz",
         "team": "Winward Racing",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_57_WINWARD_MERC_AMG_GT3_EVO_IMS-922x235.png",
+        "logo": "/mercedes_6823cf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
@@ -1644,8 +1644,8 @@
         "name": "Porsche 911 GT3 R (992)",
         "manufacturer": "Porsche",
         "team": "Wright Motorsports",
-        "image": "",
-        "logo": "",
+        "image": "/25_WT_GTD_120_WRIGHT_PORSCHE_992_GT3R_WGI-922x235.png",
+        "logo": "/porsche_67ffdf.png",
         "country": {
           "name": "United States",
           "abr": "USA"
