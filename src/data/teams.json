@@ -1661,6 +1661,115 @@
         ]
       }
     ],
-    "tracks": []
+    "tracks": [
+      {
+        "country": "USA",
+        "nameTrack": "Daytona International Speedway",
+        "nameRace": "Roar Before The Rolex 24",
+        "length_km": "5.72km",
+        "length_mi": "3.56mi",
+        "image": "/DIS_1346x916-1-350x238.png",
+        "date": ["17/01", "19/01"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Daytona International Speedway",
+        "nameRace": "Rolex 24 At DAYTONA",
+        "length_km": "5.72km",
+        "length_mi": "3.56mi",
+        "image": "/DIS_1346x916-1-350x238.png",
+        "date": ["22/01", "26/01"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Sebring International Raceway",
+        "nameRace": "Mobil 1 Twelve Hours of Sebring",
+        "length_km": "6.01km",
+        "length_mi": "3.74mi",
+        "image": "/SEBRING_1346x916-350x238.png",
+        "date": ["12/03", "15/03"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Long Beach Street Circuit",
+        "nameRace": "Acura Grand Prix of Long Beach",
+        "length_km": "3.15km",
+        "length_mi": "1.96mi",
+        "image": "/2023_LongBeach_TrackOutline_754x513-350x238.png",
+        "date": ["11/04", "12/04"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "WeatherTech Raceway Laguna Seca",
+        "nameRace": "TireRack.com Monterey SportsCar Championship",
+        "length_km": "3.58km",
+        "length_mi": "2.23mi",
+        "image": "/MRLS_1346x916-350x238.png",
+        "date": ["09/05", "11/05"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Detroit Street Circuit",
+        "nameRace": "Detroit Grand Prix",
+        "length_km": "2.73km",
+        "length_mi": "1.7mi",
+        "image": "/2013_Detroit_TrackLogo_754x513-350x238.png",
+        "date": ["30/05", "31/05"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Watkins Glen International",
+        "nameRace": "Sahlen's Six Hours of The Glen",
+        "length_km": "5.47km",
+        "length_mi": "3.4mi",
+        "image": "/WGI_1346x916-350x238.png",
+        "date": ["19/06", "22/06"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Canadian Tire Motorsport Park",
+        "nameRace": "Chevrolet Grand Prix",
+        "length_km": "3.94km",
+        "length_mi": "2.45mi",
+        "image": "/2023_CTMP_TrackOutline_754x513-350x238.png",
+        "date": ["11/07", "13/07"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Road America",
+        "nameRace": "Motul SportsCar Grand Prix",
+        "length_km": "6.43km",
+        "length_mi": "4.0mi",
+        "image": "/RoadAmerica_1346x916-350x238.png",
+        "date": ["31/07", "03/08"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "VIRginia International Raceway",
+        "nameRace": "Michelin GT Challenge At VIR",
+        "length_km": "5.26km",
+        "length_mi": "3.27mi",
+        "image": "/VIR_1346x916-350x238.png",
+        "date": ["22/08", "24/08"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Indianapolis Motor Speedway",
+        "nameRace": "TireRack.com Battle on the Bricks",
+        "length_km": "3.91km",
+        "length_mi": "2.43mi",
+        "image": "/2013_Indianapolis_TrackOutline_754x513-350x238.png",
+        "date": ["18/09", "21/09"]
+      },
+      {
+        "country": "USA",
+        "nameTrack": "Michelin Raceway Road Atlanta",
+        "nameRace": "MOTUL Petit Le Mans",
+        "length_km": "4.08km",
+        "length_mi": "2.54mi",
+        "image": "/RoadAtlanta_1346x916-350x238.png",
+        "date": ["08/10", "11/10"]
+      }
+    ]
   }
 }
