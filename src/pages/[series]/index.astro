@@ -21,8 +21,6 @@ const categories = Object.keys(teams[series]) as Array<keyof typeof teams[typeof
 const curCategory = (Astro.url.searchParams.get("cat") as keyof typeof teams[typeof series]) ?? categories[0];
 
 const selected = teams[series]?.[curCategory];
-
-// TODO - ADICIONAR TRACKS DA IMSA
 ---
 
 <Layout>
@@ -30,7 +28,8 @@ const selected = teams[series]?.[curCategory];
 		{categories.map(category => (
 			<a href={`/${series}?cat=${category}`} class={category === curCategory ? "active" : ""}>{category}</a>
 		))}
-			<a href={`/${series}/results`}>Results</a>
+		<!-- TODO - IMPLEMENTAR PÁGINA DE RESULTADOS -->
+			<a href={`/${series}/results`} class="results-page disabled">Results</a>
 	</nav>
 
 	<div class="main">
@@ -99,6 +98,10 @@ const selected = teams[series]?.[curCategory];
 
 	.active {
 		background: #e67e07;
+	}
+
+	.results-page {
+		pointer-events: none;
 	}
 
 	.disabled {
